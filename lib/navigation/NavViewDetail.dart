@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/navigation/NavWidget.dart';
 
-class NavPage extends StatefulWidget {
+class NavViewDetail extends StatefulWidget {
   @override
-  NavPageState createState() => NavPageState();
+  NavViewDetailState createState() => NavViewDetailState();
 }
 
-class NavPageState extends State<NavPage> with SingleTickerProviderStateMixin {
+class NavViewDetailState extends State<NavViewDetail>
+    with SingleTickerProviderStateMixin {
   AnimationController animationController;
   Animation<double> animation;
   Animation<double> animationFadeInOut;

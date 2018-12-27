@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:visualmandarin/navigation/NavPage.dart';
+import 'package:visualmandarin/navigation/NavViewDetail.dart';
 
 class NavView extends StatefulWidget {
   @override
@@ -17,7 +17,7 @@ class NavViewState extends State<NavView> {
           alignment: Alignment.topLeft,
           children: <Widget>[
 //             QuestionPage(),
-            NavPage(),
+            NavViewDetail(),
           ],
         ),
       ),
