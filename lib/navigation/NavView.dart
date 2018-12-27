@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:visualmandarin/navigation/NavPage.dart';
 
 class NavView extends StatefulWidget {
   @override
-  NavState createState() => NavState();
+  NavViewState createState() => NavViewState();
 }
 
-class NavState extends State <NavView> {
+class NavViewState extends State<NavView> {
   @override
-  Widget build (BuildContext context){
-    return SafeArea (
+  Widget build(BuildContext context) {
+    return SafeArea(
       top: false,
       bottom: false,
       child: new Container(
@@ -16,7 +17,7 @@ class NavState extends State <NavView> {
           alignment: Alignment.topLeft,
           children: <Widget>[
 //            new QuestionPage(),
-//            new MenuPage(),
+            new NavPage(),
           ],
         ),
       ),
