@@ -50,7 +50,7 @@ Positioned getHamPositioned(Function func) {
 Padding getPadding(BuildContext context) {
   int _itemCount = 11;
   return Padding(
-    padding: const EdgeInsets.only(left: 64.0, top: 96.0),
+    padding: const EdgeInsets.only(left: 40.0, top: 96.0),
     child: Container(
         child: Center(
             child: FutureBuilder(
@@ -60,41 +60,24 @@ Padding getPadding(BuildContext context) {
                   // Decode the JSON
                   var menuData = json.decode(snapshot.data.toString());
                   return ListView.builder(
-                      itemCount: _itemCount,
+                      itemCount: menuData.length,
                       padding: const EdgeInsets.only(
-                          left: 14.0, top: 14.0, right: 70.0, bottom: 14.0),
+                          left: 14.0, top: 14.0, right: 50.0, bottom: 14.0),
                       itemBuilder: (context, index) {
-                        var title = menuData[index]['title'].toString();
-                        final Widget listTile = index == _itemCount
-                            ? reachedEnd()
-                            : raisedButton(title);
-                        return listTile;
+                        return ListTile(
+                          title: RaisedButton(
+                              color: Color(Keys.DARK_GREY),
+                              elevation: 20.0,
+                              onPressed: () {
+                                print('Button clicked');
+                              },
+                              child: Text(
+                                menuData[index]['title'].toString(),
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18.0),
+                              )),
+                        );
                       });
                 }))),
-  );
-}
-
-Widget raisedButton(String title) {
-  return RaisedButton(
-    color: Color(Keys.DARK_GREY),
-    elevation: 20.0,
-    onPressed: () {
-      print('Button clicked');
-    },
-    child: new Container(
-        padding: const EdgeInsets.all(8.0),
-        child: Text(
-          title,
-          style: TextStyle(color: Colors.white, fontSize: 18.0),
-        )),
-  );
-}
-
-Widget reachedEnd() {
-  return const Padding(
-    padding: const EdgeInsets.all(20.0),
-    child: const Center(
-      child: const CircularProgressIndicator(),
-    ),
   );
 }

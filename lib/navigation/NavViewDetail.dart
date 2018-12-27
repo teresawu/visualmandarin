@@ -56,7 +56,7 @@ class NavViewDetailState extends State<NavViewDetail>
     double screenWidth = mediaQueryData.size.width;
     double screenHeight = mediaQueryData.size.height;
 
-    return new Transform.rotate(
+    return Transform.rotate(
         angle: animation.value,
         origin: Offset(24.0, 56.0),
         alignment: Alignment.topLeft,
