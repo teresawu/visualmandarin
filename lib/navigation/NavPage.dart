@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/navigation/NavWidget.dart';
 
 class NavPage extends StatefulWidget {
@@ -63,7 +64,7 @@ class NavPageState extends State<NavPage> with SingleTickerProviderStateMixin {
           child: Container(
             width: screenWidth,
             height: screenHeight,
-            color: Color(0xff515151),
+            color: Color(Keys.DARK_GREY),
             child: Stack(
               children: <Widget>[
                 getPositioned(screenWidth, animationFadeInOut.value),
@@ -81,7 +82,7 @@ class NavPageState extends State<NavPage> with SingleTickerProviderStateMixin {
       } else if (animationStatus == MenuAnimationStatus.close)
         animationController.forward().orCancel;
       else
-        animationController.forward().orCancel;
+        animationController.reverse().orCancel;
     } on TickerCanceled {}
   }
 }

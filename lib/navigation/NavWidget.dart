@@ -23,8 +23,8 @@ Positioned getPositioned(double screenWidth, double value) {
               child: Text('QUESTIONS',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Color(0xff515151),
-                    fontSize: 20.0,
+                    color: Colors.white,
+                    fontSize: 18.0,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2.0,
                   )),
@@ -61,24 +61,32 @@ Padding getPadding(BuildContext context) {
                   var menuData = json.decode(snapshot.data.toString());
                   return ListView.builder(
                       itemCount: _itemCount,
-                      padding: const EdgeInsets.all(14.0),
+                      padding: const EdgeInsets.only(
+                          left: 14.0, top: 14.0, right: 70.0, bottom: 14.0),
                       itemBuilder: (context, index) {
                         var title = menuData[index]['title'].toString();
                         final Widget listTile = index == _itemCount
                             ? reachedEnd()
-                            : RaisedButton(
-                                onPressed: () {
-                                  print('Button clicked');
-                                },
-                                child: Text(
-                                  title,
-                                  style: TextStyle(
-                                      color: Colors.white, fontSize: 24.0),
-                                ),
-                              );
+                            : raisedButton(title);
                         return listTile;
                       });
                 }))),
+  );
+}
+
+Widget raisedButton(String title) {
+  return RaisedButton(
+    color: Color(Keys.DARK_GREY),
+    elevation: 20.0,
+    onPressed: () {
+      print('Button clicked');
+    },
+    child: new Container(
+        padding: const EdgeInsets.all(8.0),
+        child: Text(
+          title,
+          style: TextStyle(color: Colors.white, fontSize: 18.0),
+        )),
   );
 }
 
