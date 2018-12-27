@@ -1,3 +1,3 @@
 class Keys {
-  static String JSON_PATH = 'data_repo/country.json';
+  static String JSON_PATH = 'data/menu.json';
 }

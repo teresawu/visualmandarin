@@ -50,12 +50,29 @@ class NavPageState extends State<NavPage> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    MediaQueryData mediaQueryData = MediaQuery.of(context);
+    double screenWidth = mediaQueryData.size.width;
+    double screenHeight = mediaQueryData.size.height;
+
     return new Transform.rotate(
-      angle: animation.value,
-      origin: Offset(24.0, 56.0),
-      alignment: Alignment.topLeft,
-      child: getMaterial(context, animationFadeInOut.value),
-    );
+        angle: animation.value,
+        origin: Offset(24.0, 56.0),
+        alignment: Alignment.topLeft,
+        child: Material(
+          color: Colors.transparent,
+          child: Container(
+            width: screenWidth,
+            height: screenHeight,
+            color: Color(0xff515151),
+            child: Stack(
+              children: <Widget>[
+                getPositioned(screenWidth, animationFadeInOut.value),
+                getHamPositioned(playAnimation),
+                getPadding(context)
+              ],
+            ),
+          ),
+        ));
   }
 
   void playAnimation() {
@@ -64,57 +81,9 @@ class NavPageState extends State<NavPage> with SingleTickerProviderStateMixin {
       } else if (animationStatus == MenuAnimationStatus.close)
         animationController.forward().orCancel;
       else
-        animationController.reverse().orCancel;
+        animationController.forward().orCancel;
     } on TickerCanceled {}
   }
 }
 
 enum MenuAnimationStatus { close, open, animation }
-
-
-final List<Map> _menus = <Map>[
-  {
-    "icon": Icons.streetview,
-    "title": "Animal"
-  },
-  {
-    "icon": Icons.card_travel,
-    "title": "Career"
-  },
-  {
-    "icon": Icons.color_lens,
-    "title": "Color"
-  },
-  {
-    "icon": Icons.outlined_flag,
-    "title": "Country"
-  },
-  {
-    "icon": Icons.local_drink,
-    "title": "Drink"
-  },
-  {
-    "icon": Icons.group_work,
-    "title": "Fruit"
-  },
-  {
-    "icon": Icons.kitchen,
-    "title": "Kitchen"
-  },
-  {
-    "icon": Icons.people_outline,
-    "title": "People"
-  },
-  {
-    "icon": Icons.directions_run,
-    "title": "Sport"
-  },
-  {
-    "icon": Icons.directions_boat,
-    "title": "Transport"
-  },
-  {
-    "icon": Icons.nature,
-    "title": "Vegetable"
-  }
-];

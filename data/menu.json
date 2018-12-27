@@ -1,46 +1,35 @@
 [
- {
-    "icon": "Icons.streetview",
+  {
     "title": "Animal"
   },
   {
-    "icon": "Icons.card_travel",
     "title": "Career"
   },
   {
-    "icon": "Icons.color_lens",
     "title": "Color"
   },
   {
-    "icon": "Icons.outlined_flag",
     "title": "Country"
   },
   {
-    "icon": "Icons.local_drink",
     "title": "Drink"
   },
   {
-    "icon": "Icons.group_work",
     "title": "Fruit"
   },
   {
-    "icon": "Icons.kitchen",
     "title": "Kitchen"
   },
   {
-    "icon": "Icons.people_outline",
     "title": "People"
   },
   {
-    "icon": "Icons.directions_run",
     "title": "Sport"
   },
   {
-    "icon": "Icons.directions_boat",
     "title": "Transport"
   },
   {
-    "icon": "Icons.nature",
     "title": "Vegetable"
   }
 ]
