@@ -14,16 +14,6 @@ class QuestionView extends StatefulWidget {
 
 class QuestionViewState extends State<QuestionView> {
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Container(
       color: Color(Keys.DARK_GREY),
