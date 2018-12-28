@@ -39,7 +39,7 @@ Positioned getHamburgerIcon(Function func) {
         color: Colors.white,
       ),
       onPressed: () {
-        func(-1);
+        func();
       },
     ),
   );
@@ -66,7 +66,10 @@ Widget loadNavData(BuildContext context, Function func) {
                               color: Color(Keys.DARK_GREY),
                               elevation: 20.0,
                               onPressed: () {
-                                func(index);
+                                func();
+                                Keys.INDEX = index;
+                                Keys.TITLE =
+                                    menuData[index]['title'].toString();
                               },
                               child: Text(
                                 menuData[index]['title'].toString(),

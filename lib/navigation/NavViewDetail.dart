@@ -77,9 +77,7 @@ class NavViewDetailState extends State<NavViewDetail>
         ));
   }
 
-  void playAnimation(int index) {
-    if (index != -1) Keys.INDEX = index;
-    print(animationStatus.toString() + " " + Keys.INDEX.toString());
+  void playAnimation() {
     try {
       if (animationStatus == MenuAnimationStatus.animation) {
       } else if (animationStatus == MenuAnimationStatus.close)
