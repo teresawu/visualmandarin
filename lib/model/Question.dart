@@ -15,30 +15,17 @@ class Data {
   String question;
   int answer;
   String audio;
-  List<Picture> imagesList;
+  List<String> imagesList;
 
   Data({this.question, this.answer, this.audio, this.imagesList});
 
   factory Data.fromJson(Map<String, dynamic> parsedJson) {
-    var list = parsedJson['image'] as List;
-    List<Picture> images = list.map((i) => Picture.fromJson(i)).toList();
-
+    var picFromJson = parsedJson['picture'];
+    List<String> imgList = new List<String>.from(picFromJson);
     return Data(
         question: parsedJson['question'],
         answer: parsedJson['answer'],
         audio: parsedJson['audio'],
-        imagesList: images);
-  }
-}
-
-class Picture {
-  String imageName;
-
-  Picture({this.imageName});
-
-  factory Picture.fromJson(Map<String, dynamic> parsedJson) {
-    return Picture(
-      imageName: parsedJson['image'],
-    );
+        imagesList: imgList);
   }
 }

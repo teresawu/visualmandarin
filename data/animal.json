@@ -5,266 +5,154 @@
       "question": "老虎 lǎo hǔ",
       "answer": 2,
       "audio": "",
-      "image": [
-        {
-          "name": "animalc.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        },
-        {
-          "name": "animala.jpg"
-        },
-        {
-          "name": "animalg.jpg"
-        }
+      "picture": [
+        "animali.jpg",
+        "animalc.jpg",
+        "animala.jpg",
+        "animalg.jpg"
       ]
     },
     {
       "question": "熊猫 xióng māo",
       "answer": 1,
       "audio": "",
-      "image": [
-        {
-          "name": "animalk.jpg"
-        },
-        {
-          "name": "animalb.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        },
-        {
-          "name": "animala.jpg"
-        }
+      "picture": [
+        "animalk.jpg",
+        "animalb.jpg",
+        "animale.jpg",
+        "animala.jpg"
       ]
     },
     {
       "question": "企鹅 qǐ é",
       "answer": 3,
       "audio": "",
-      "image": [
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animala.jpg"
-        },
-        {
-          "name": "animalf.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        }
+      "picture": [
+        "animalg.jpg",
+        "animala.jpg",
+        "animalf.jpg",
+        "animalc.jpg"
       ]
     },
     {
       "question": "鱼 yú",
       "answer": 0,
       "audio": "",
-      "image": [
-        {
-          "name": "animald.jpg"
-        },
-        {
-          "name": "animalm.jpg"
-        },
-        {
-          "name": "animalb.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        }
+      "picture": [
+        "animald.jpg",
+        "animalm.jpg",
+        "animalb.jpg",
+        "animalc.jpg"
       ]
     },
     {
       "question": "海豚 hǎi tún",
       "answer": 3,
       "audio": "",
-      "image": [
-        {
-          "name": "animalk.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        },
-        {
-          "name": "animali.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        }
+      "picture": [
+        "animalk.jpg",
+        "animalc.jpg",
+        "animali.jpg",
+        "animale.jpg"
       ]
     },
     {
       "question": "松鼠 sōng shǔ",
       "answer": 1,
       "audio": "",
-      "image": [
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animalf.jpg"
-        },
-        {
-          "name": "animalk.jpg"
-        },
-        {
-          "name": "animalb.jpg"
-        }
+      "picture": [
+        "animalg.jpg",
+        "animalf.jpg",
+        "animalk.jpg",
+        "animalb.jpg"
       ]
     },
     {
       "question": "黄色的小鸡 huáng sè de xiǎo jī",
       "answer": 1,
       "audio": "",
-      "image": [
-        {
-          "name": "animaln.jpg"
-        },
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        },
-        {
-          "name": "animalm.jpg"
-        }
+      "picture": [
+        "animaln.jpg",
+        "animalg.jpg",
+        "animalc.jpg",
+        "animalm.jpg"
       ]
     },
     {
       "question": "蝴蝶 hú dié",
       "answer": 2,
       "audio": "",
-      "image": [
-        {
-          "name": "animalb.jpg"
-        },
-        {
-          "name": "animalf.jpg"
-        },
-        {
-          "name": "animalh.jpg"
-        },
-        {
-          "name": "animala.jpg"
-        }
+      "picture": [
+        "animalb.jpg",
+        "animalf.jpg",
+        "animalh.jpg",
+        "animala.jpg"
       ]
     },
     {
       "question": "孔雀 kǒng què",
       "answer": 0,
       "audio": "",
-      "image": [
-        {
-          "name": "animali.jpg"
-        },
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animaln.jpg"
-        },
-        {
-          "name": "animalc.jpg"
-        }
+      "picture": [
+        "animali.jpg",
+        "animalg.jpg",
+        "animaln.jpg",
+        "animalc.jpg"
       ]
     },
     {
       "question": "马 mǎ",
       "answer": 3,
       "audio": "",
-      "image": [
-        {
-          "name": "animalm.jpg"
-        },
-        {
-          "name": "animald.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        },
-        {
-          "name": "animalj.jpg"
-        }
+      "picture": [
+        "animalm.jpg",
+        "animald.jpg",
+        "animale.jpg",
+        "animalj.jpg"
       ]
     },
     {
       "question": "狮子 shī zǐ",
       "answer": 1,
       "audio": "",
-      "image": [
-        {
-          "name": "animaln.jpg"
-        },
-        {
-          "name": "animalk.jpg"
-        },
-        {
-          "name": "animalm.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        }
+      "picture": [
+        "animaln.jpg",
+        "animalk.jpg",
+        "animalm.jpg",
+        "animale.jpg"
       ]
     },
     {
       "question": "羊 yáng",
       "answer": 2,
       "audio": "",
-      "image": [
-        {
-          "name": "animale.jpg"
-        },
-        {
-          "name": "animald.jpg"
-        },
-        {
-          "name": "animall.jpg"
-        },
-        {
-          "name": "animalf.jpg"
-        }
+      "picture": [
+        "animale.jpg",
+        "animald.jpg",
+        "animall.jpg",
+        "animalf.jpg"
       ]
     },
     {
       "question": "大象 dà xiàng",
       "answer": 0,
       "audio": "",
-      "image": [
-        {
-          "name": "animalm.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        },
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animald.jpg"
-        }
+      "picture": [
+        "animalm.jpg",
+        "animale.jpg",
+        "animalg.jpg",
+        "animald.jpg"
       ]
     },
     {
       "question": "鸭子在水里 yā zǐ zài shuǐ lǐ",
       "answer": 2,
       "audio": "",
-      "image": [
-        {
-          "name": "animalg.jpg"
-        },
-        {
-          "name": "animalk.jpg"
-        },
-        {
-          "name": "animaln.jpg"
-        },
-        {
-          "name": "animale.jpg"
-        }
+      "picture": [
+        "animalg.jpg",
+        "animalk.jpg",
+        "animaln.jpg",
+        "animale.jpg"
       ]
     }
   ]

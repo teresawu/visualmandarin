@@ -32,7 +32,9 @@ List<Widget> loadQuestions(Data data) {
         highlightColor: _highlightColor,
         splashColor: _splashColor,
         child: Center(
-            child: Image(image: AssetImage(data.imagesList[i].toString()))),
+            child: Image(
+                image: AssetImage(
+                    Keys.PATH_IMAGE + data.imagesList[i].toString()))),
         onTap: () {
           print("tapped");
         },
