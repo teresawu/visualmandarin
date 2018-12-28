@@ -1,0 +1,159 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "记者 jì zhě",
+      "answer": 2,
+      "audio": "careera.mp3",
+      "picture": [
+        "careeri.jpg",
+        "careerc.jpg",
+        "careera.jpg",
+        "careerg.jpg"
+      ]
+    },
+    {
+      "question": "飞行员 fēi háng yuán",
+      "answer": 1,
+      "audio": "careerb.mp3",
+      "picture": [
+        "careerk.jpg",
+        "careerb.jpg",
+        "careere.jpg",
+        "careera.jpg"
+      ]
+    },
+    {
+      "question": "教师 jiāo shī",
+      "answer": 3,
+      "audio": "careerc.mp3",
+      "picture": [
+        "careerg.jpg",
+        "careera.jpg",
+        "careerf.jpg",
+        "careerc.jpg"
+      ]
+    },
+    {
+      "question": "钢琴家 gāng qín jiā",
+      "answer": 0,
+      "audio": "careerd.mp3",
+      "picture": [
+        "careerd.jpg",
+        "careerm.jpg",
+        "careerb.jpg",
+        "careerc.jpg"
+      ]
+    },
+    {
+      "question": "厨师 chú shī",
+      "answer": 3,
+      "audio": "careere.mp3",
+      "picture": [
+        "careerk.jpg",
+        "careerc.jpg",
+        "careeri.jpg",
+        "careere.jpg"
+      ]
+    },
+    {
+      "question": "秘书 mì shū",
+      "answer": 1,
+      "audio": "careerf.mp3",
+      "picture": [
+        "careerg.jpg",
+        "careerf.jpg",
+        "careerk.jpg",
+        "careerb.jpg"
+      ]
+    },
+    {
+      "question": "司机 sī jī",
+      "answer": 1,
+      "audio": "careerg.mp3",
+      "picture": [
+        "careern.jpg",
+        "careerg.jpg",
+        "careerc.jpg",
+        "careerm.jpg"
+      ]
+    },
+    {
+      "question": "经理 jīng lǐ",
+      "answer": 2,
+      "audio": "careerh.mp3",
+      "picture": [
+        "careerb.jpg",
+        "careerf.jpg",
+        "careerh.jpg",
+        "careera.jpg"
+      ]
+    },
+    {
+      "question": "学生 xué shēng",
+      "answer": 0,
+      "audio": "careeri.mp3",
+      "picture": [
+        "careeri.jpg",
+        "careerg.jpg",
+        "careern.jpg",
+        "careerc.jpg"
+      ]
+    },
+    {
+      "question": "保姆在打扫 bǎo mǔ zài dǎ sǎo",
+      "answer": 3,
+      "audio": "careerj.mp3",
+      "picture": [
+        "careerm.jpg",
+        "careerd.jpg",
+        "careere.jpg",
+        "careerj.jpg"
+      ]
+    },
+    {
+      "question": "他是一位艺术家 tā shì yī wèi yì shù jiā",
+      "answer": 1,
+      "audio": "careerk.mp3",
+      "picture": [
+        "careern.jpg",
+        "careerk.jpg",
+        "careerm.jpg",
+        "careere.jpg"
+      ]
+    },
+    {
+      "question": "工人 gōng rén",
+      "answer": 2,
+      "audio": "careerl.mp3",
+      "picture": [
+        "careere.jpg",
+        "careerd.jpg",
+        "careerl.jpg",
+        "careerf.jpg"
+      ]
+    },
+    {
+      "question": "农民 nóng mín",
+      "answer": 0,
+      "audio": "careerm.mp3",
+      "picture": [
+        "careerm.jpg",
+        "careere.jpg",
+        "careerg.jpg",
+        "careerd.jpg"
+      ]
+    },
+    {
+      "question": "程序员 chéng xù yuán",
+      "answer": 2,
+      "audio": "careern.mp3",
+      "picture": [
+        "careerg.jpg",
+        "careerk.jpg",
+        "careern.jpg",
+        "careere.jpg"
+      ]
+    }
+  ]
+}

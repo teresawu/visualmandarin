@@ -1,0 +1,148 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "公共汽车 gōng gòng qì chē",
+      "answer": 2,
+      "audio": "transporta.mp3",
+      "picture": [
+        "transporti.jpg",
+        "transportc.jpg",
+        "transporta.jpg",
+        "transportg.jpg"
+      ]
+    },
+    {
+      "question": "飞机 fēi jī",
+      "answer": 1,
+      "audio": "transportb.mp3",
+      "picture": [
+        "transportk.jpg",
+        "transportb.jpg",
+        "transporte.jpg",
+        "transporta.jpg"
+      ]
+    },
+    {
+      "question": "火车 huǒ chē",
+      "answer": 3,
+      "audio": "transportc.mp3",
+      "picture": [
+        "transportg.jpg",
+        "transporta.jpg",
+        "transportf.jpg",
+        "transportc.jpg"
+      ]
+    },
+    {
+      "question": "自行车 zì háng chē",
+      "answer": 0,
+      "audio": "transportd.mp3",
+      "picture": [
+        "transportd.jpg",
+        "transportm.jpg",
+        "transportb.jpg",
+        "transportk.jpg"
+      ]
+    },
+    {
+      "question": "红灯 hóng dēng",
+      "answer": 3,
+      "audio": "transporte.mp3",
+      "picture": [
+        "transportk.jpg",
+        "transportc.jpg",
+        "transporti.jpg",
+        "transporte.jpg"
+      ]
+    },
+    {
+      "question": "出租车 chū zū chē",
+      "answer": 1,
+      "audio": "transportf.mp3",
+      "picture": [
+        "transportg.jpg",
+        "transportf.jpg",
+        "transporth.jpg",
+        "transportb.jpg"
+      ]
+    },
+    {
+      "question": "黄灯 huáng dēng",
+      "answer": 1,
+      "audio": "transportg.mp3",
+      "picture": [
+        "transportj.jpg",
+        "transportg.jpg",
+        "transportc.jpg",
+        "transportm.jpg"
+      ]
+    },
+    {
+      "question": "绿灯 lǜ dēng",
+      "answer": 2,
+      "audio": "transporth.mp3",
+      "picture": [
+        "transportb.jpg",
+        "transportf.jpg",
+        "transporth.jpg",
+        "transporta.jpg"
+      ]
+    },
+    {
+      "question": "直升飞机 zhí shēng fēi jī",
+      "answer": 0,
+      "audio": "transporti.mp3",
+      "picture": [
+        "transporti.jpg",
+        "transportg.jpg",
+        "transportd.jpg",
+        "transportc.jpg"
+      ]
+    },
+    {
+      "question": "人行横道 rén háng héng dào",
+      "answer": 3,
+      "audio": "transportj.mp3",
+      "picture": [
+        "transportm.jpg",
+        "transportd.jpg",
+        "transportt.jpg",
+        "transportj.jpg"
+      ]
+    },
+    {
+      "question": "铁路 tiě lù",
+      "answer": 1,
+      "audio": "transportk.mp3",
+      "picture": [
+        "transporti.jpg",
+        "transportk.jpg",
+        "transportm.jpg",
+        "transporte.jpg"
+      ]
+    },
+    {
+      "question": "桥 qiáo",
+      "answer": 2,
+      "audio": "transportl.mp3",
+      "picture": [
+        "transporth.jpg",
+        "transportd.jpg",
+        "transportl.jpg",
+        "transportf.jpg"
+      ]
+    },
+    {
+      "question": "轮船 lún chuán",
+      "answer": 0,
+      "audio": "transportm.mp3",
+      "picture": [
+        "transportm.jpg",
+        "transporte.jpg",
+        "transportk.jpg",
+        "transportd.jpg"
+      ]
+    }
+  ]
+}

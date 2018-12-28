@@ -1,0 +1,148 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "女人 nǚ rén",
+      "answer": 2,
+      "audio": "peoplea.mp3",
+      "picture": [
+        "peoplei.jpg",
+        "peoplec.jpg",
+        "peoplea.jpg",
+        "peopleg.jpg"
+      ]
+    },
+    {
+      "question": "男孩 nán hái",
+      "answer": 1,
+      "audio": "peopleb.mp3",
+      "picture": [
+        "peoplek.jpg",
+        "peopleb.jpg",
+        "peoplee.jpg",
+        "peoples.jpg"
+      ]
+    },
+    {
+      "question": "男人 nán rén",
+      "answer": 3,
+      "audio": "peoplec.mp3",
+      "picture": [
+        "peopleg.jpg",
+        "peoplea.jpg",
+        "peoplef.jpg",
+        "peoplec.jpg"
+      ]
+    },
+    {
+      "question": "女孩 nǚ hái",
+      "answer": 0,
+      "audio": "peopled.mp3",
+      "picture": [
+        "peopled.jpg",
+        "peoplem.jpg",
+        "peopleb.jpg",
+        "peoplec.jpg"
+      ]
+    },
+    {
+      "question": "姐妹 jiě mèi",
+      "answer": 3,
+      "audio": "peoplee.mp3",
+      "picture": [
+        "peoplek.jpg",
+        "peoplec.jpg",
+        "peoplei.jpg",
+        "peoplee.jpg"
+      ]
+    },
+    {
+      "question": "兄弟 xiōng dì",
+      "answer": 1,
+      "audio": "peoplef.mp3",
+      "picture": [
+        "peopleg.jpg",
+        "peoplef.jpg",
+        "peoplee.jpg",
+        "peopleb.jpg"
+      ]
+    },
+    {
+      "question": "夫妻 fū qī",
+      "answer": 1,
+      "audio": "peopleg.mp3",
+      "picture": [
+        "peoplen.jpg",
+        "peopleg.jpg",
+        "peoplec.jpg",
+        "peoplem.jpg"
+      ]
+    },
+    {
+      "question": "一家人 yī jiā rén",
+      "answer": 2,
+      "audio": "peopleh.mp3",
+      "picture": [
+        "peopleb.jpg",
+        "peoplef.jpg",
+        "peopleh.jpg",
+        "peoplea.jpg"
+      ]
+    },
+    {
+      "question": "妈妈 mā mā",
+      "answer": 0,
+      "audio": "peoplei.mp3",
+      "picture": [
+        "peoplei.jpg",
+        "peopleg.jpg",
+        "peoplen.jpg",
+        "peoplec.jpg"
+      ]
+    },
+    {
+      "question": "老人 lǎo rén",
+      "answer": 3,
+      "audio": "peoplej.mp3",
+      "picture": [
+        "peoplem.jpg",
+        "peopled.jpg",
+        "peoplea.jpg",
+        "peoplej.jpg"
+      ]
+    },
+    {
+      "question": "奶奶 nǎi nǎi",
+      "answer": 1,
+      "audio": "peoplek.mp3",
+      "picture": [
+        "peoplen.jpg",
+        "peoplek.jpg",
+        "peoplem.jpg",
+        "peoplee.jpg"
+      ]
+    },
+    {
+      "question": "婴儿 yīng ér",
+      "answer": 2,
+      "audio": "peoplel.mp3",
+      "picture": [
+        "peoplei.jpg",
+        "peopled.jpg",
+        "peoplel.jpg",
+        "peoplef.jpg"
+      ]
+    },
+    {
+      "question": "爸爸 bà bà",
+      "answer": 0,
+      "audio": "peoplem.mp3",
+      "picture": [
+        "peoplem.jpg",
+        "peoplee.jpg",
+        "peoplea.jpg",
+        "peopled.jpg"
+      ]
+    }
+  ]
+}

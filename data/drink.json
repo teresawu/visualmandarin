@@ -1,0 +1,192 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "咖啡 kā fēi",
+      "answer": 2,
+      "audio": "drinka.mp3",
+      "picture": [
+        "drinkf.jpg",
+        "drinkc.jpg",
+        "drinka.jpg",
+        "drinkg.jpg"
+      ]
+    },
+    {
+      "question": "白开水 bái kāi shuǐ",
+      "answer": 1,
+      "audio": "drinkb.mp3",
+      "picture": [
+        "drinkk.jpg",
+        "drinkb.jpg",
+        "drinke.jpg",
+        "drinka.jpg"
+      ]
+    },
+    {
+      "question": "红酒 hóng jiǔ",
+      "answer": 3,
+      "audio": "drinkc.mp3",
+      "picture": [
+        "drinkg.jpg",
+        "drinka.jpg",
+        "drinkf.jpg",
+        "drinkc.jpg"
+      ]
+    },
+    {
+      "question": "绿茶 lǜ chá",
+      "answer": 0,
+      "audio": "drinkd.mp3",
+      "picture": [
+        "drinkd.jpg",
+        "drinkm.jpg",
+        "drinkb.jpg",
+        "drinkq.jpg"
+      ]
+    },
+    {
+      "question": "白葡萄酒 bái pú táo jiǔ",
+      "answer": 3,
+      "audio": "drinke.mp3",
+      "picture": [
+        "drinkk.jpg",
+        "drinkc.jpg",
+        "drinki.jpg",
+        "drinke.jpg"
+      ]
+    },
+    {
+      "question": "鸡尾酒 jī wěi jiǔ",
+      "answer": 1,
+      "audio": "drinkf.mp3",
+      "picture": [
+        "drinkg.jpg",
+        "drinkf.jpg",
+        "drinke.jpg",
+        "drinkb.jpg"
+      ]
+    },
+    {
+      "question": "牛奶 niú nǎi",
+      "answer": 1,
+      "audio": "drinkg.mp3",
+      "picture": [
+        "drinkn.jpg",
+        "drinkg.jpg",
+        "drinkc.jpg",
+        "drinkm.jpg"
+      ]
+    },
+    {
+      "question": "汽水 qì shuǐ",
+      "answer": 2,
+      "audio": "drinkh.mp3",
+      "picture": [
+        "drinkb.jpg",
+        "drinkf.jpg",
+        "drinkh.jpg",
+        "drinka.jpg"
+      ]
+    },
+    {
+      "question": "橙汁 chéng zhī",
+      "answer": 0,
+      "audio": "drinki.mp3",
+      "picture": [
+        "drinki.jpg",
+        "drinkg.jpg",
+        "drinkn.jpg",
+        "drinkc.jpg"
+      ]
+    },
+    {
+      "question": "红茶 hóng chá",
+      "answer": 3,
+      "audio": "drinkj.mp3",
+      "picture": [
+        "drinkm.jpg",
+        "drinkd.jpg",
+        "drinka.jpg",
+        "drinkj.jpg"
+      ]
+    },
+    {
+      "question": "啤酒 pí jiǔ",
+      "answer": 1,
+      "audio": "drinkk.mp3",
+      "picture": [
+        "drinkn.jpg",
+        "drinkk.jpg",
+        "drinkm.jpg",
+        "drinke.jpg"
+      ]
+    },
+    {
+      "question": "奶昔 nǎi xī",
+      "answer": 2,
+      "audio": "drinkl.mp3",
+      "picture": [
+        "drinki.jpg",
+        "drinkd.jpg",
+        "drinkl.jpg",
+        "drinkf.jpg"
+      ]
+    },
+    {
+      "question": "米酒 mǐ jiǔ",
+      "answer": 0,
+      "audio": "drinkm.mp3",
+      "picture": [
+        "drinkm.jpg",
+        "drinke.jpg",
+        "drinkr.jpg",
+        "drinkd.jpg"
+      ]
+    },
+    {
+      "question": "香槟 xiāng bīn",
+      "answer": 2,
+      "audio": "drinkn.mp3",
+      "picture": [
+        "drinkq.jpg",
+        "drinkk.jpg",
+        "drinkn.jpg",
+        "drinke.jpg"
+      ]
+    },
+    {
+      "question": "苹果汁 píng guǒ zhī",
+      "answer": 1,
+      "audio": "drinko.mp3",
+      "picture": [
+        "drinkg.jpg",
+        "drinko.jpg",
+        "drinkn.jpg",
+        "drinki.jpg"
+      ]
+    },
+    {
+      "question": "热巧克力 rè qiǎo kè lì",
+      "answer": 3,
+      "audio": "drinkp.mp3",
+      "picture": [
+        "drinka.jpg",
+        "drinkk.jpg",
+        "drinkb.jpg",
+        "drinkp.jpg"
+      ]
+    },
+    {
+      "question": "威士忌 wēi shì jì",
+      "answer": 0,
+      "audio": "drinkq.mp3",
+      "picture": [
+        "drinkq.jpg",
+        "drinkf.jpg",
+        "drinkc.jpg",
+        "drinkj.jpg"
+      ]
+    }
+  ]
+}

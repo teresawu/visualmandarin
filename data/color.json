@@ -1,0 +1,137 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "蓝色 lán sè",
+      "answer": 2,
+      "audio": "colora.mp3",
+      "picture": [
+        "colori.jpg",
+        "colorc.jpg",
+        "colora.jpg",
+        "colorg.jpg"
+      ]
+    },
+    {
+      "question": "棕色 zōng sè",
+      "answer": 1,
+      "audio": "colorb.mp3",
+      "picture": [
+        "colork.jpg",
+        "colorb.jpg",
+        "colore.jpg",
+        "colora.jpg"
+      ]
+    },
+    {
+      "question": "红色 hóng sè",
+      "answer": 3,
+      "audio": "colorc.mp3",
+      "picture": [
+        "colorg.jpg",
+        "colora.jpg",
+        "colorf.jpg",
+        "colorc.jpg"
+      ]
+    },
+    {
+      "question": "白色 bái sè",
+      "answer": 0,
+      "audio": "colord.mp3",
+      "picture": [
+        "colord.jpg",
+        "colorm.jpg",
+        "colorb.jpg",
+        "colorc.jpg"
+      ]
+    },
+    {
+      "question": "橙色 chéng sè",
+      "answer": 3,
+      "audio": "colore.mp3",
+      "picture": [
+        "colork.jpg",
+        "colorc.jpg",
+        "colori.jpg",
+        "colore.jpg"
+      ]
+    },
+    {
+      "question": "粉红色 fěn hóng sè",
+      "answer": 1,
+      "audio": "colorf.mp3",
+      "picture": [
+        "colorg.jpg",
+        "colorf.jpg",
+        "colork.jpg",
+        "colorb.jpg"
+      ]
+    },
+    {
+      "question": "绿色 lǜ sè",
+      "answer": 1,
+      "audio": "colorg.mp3",
+      "picture": [
+        "colorn.jpg",
+        "colorg.jpg",
+        "colorc.jpg",
+        "colorm.jpg"
+      ]
+    },
+    {
+      "question": "灰色 huī sè",
+      "answer": 2,
+      "audio": "colorh.mp3",
+      "picture": [
+        "colorb.jpg",
+        "colorf.jpg",
+        "colorh.jpg",
+        "colora.jpg"
+      ]
+    },
+    {
+      "question": "黑色 hēi sè",
+      "answer": 0,
+      "audio": "colori.mp3",
+      "picture": [
+        "colori.jpg",
+        "colorg.jpg",
+        "colorn.jpg",
+        "colorc.jpg"
+      ]
+    },
+    {
+      "question": "黄色 huáng sè",
+      "answer": 3,
+      "audio": "colorj.mp3",
+      "picture": [
+        "colorm.jpg",
+        "colord.jpg",
+        "colore.jpg",
+        "colorj.jpg"
+      ]
+    },
+    {
+      "question": "紫色 zǐ sè",
+      "answer": 3,
+      "audio": "colorj.mp3",
+      "picture": [
+        "colorm.jpg",
+        "colord.jpg",
+        "colore.jpg",
+        "colorj.jpg"
+      ]
+    },
+    {
+      "question": "透明 tòu míng",
+      "answer": 1,
+      "audio": "colork.mp3",
+      "picture": [
+        "colorn.jpg",
+        "colork.jpg",
+        "colorm.jpg",
+        "colore.jpg"
+      ]
+    }
+  ]
+}

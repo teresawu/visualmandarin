@@ -1,0 +1,137 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "樱桃 yīng táo",
+      "answer": 2,
+      "audio": "fruita.mp3",
+      "picture": [
+        "fruiti.jpg",
+        "fruitc.jpg",
+        "fruita.jpg",
+        "fruitg.jpg"
+      ]
+    },
+    {
+      "question": "椰子 yē zǐ",
+      "answer": 1,
+      "audio": "fruitb.mp3",
+      "picture": [
+        "fruitk.jpg",
+        "fruitb.jpg",
+        "fruite.jpg",
+        "fruitd.jpg"
+      ]
+    },
+    {
+      "question": "芒果 máng guǒ",
+      "answer": 3,
+      "audio": "fruitc.mp3",
+      "picture": [
+        "fruitg.jpg",
+        "fruita.jpg",
+        "fruitf.jpg",
+        "fruitc.jpg"
+      ]
+    },
+    {
+      "question": "葡萄 pú táo",
+      "answer": 0,
+      "audio": "fruitd.mp3",
+      "picture": [
+        "fruitd.jpg",
+        "fruitb.jpg",
+        "fruitc.jpg",
+        "fruitq.jpg"
+      ]
+    },
+    {
+      "question": "蓝莓 lán méi",
+      "answer": 3,
+      "audio": "fruite.mp3",
+      "picture": [
+        "fruitk.jpg",
+        "fruitc.jpg",
+        "fruiti.jpg",
+        "fruite.jpg"
+      ]
+    },
+    {
+      "question": "菠萝 bō luó",
+      "answer": 1,
+      "audio": "fruitf.mp3",
+      "picture": [
+        "fruitg.jpg",
+        "fruitf.jpg",
+        "fruitc.jpg",
+        "fruitb.jpg"
+      ]
+    },
+    {
+      "question": "猕猴桃 mí hóu táo",
+      "answer": 1,
+      "audio": "fruitg.mp3",
+      "picture": [
+        "fruith.jpg",
+        "fruitg.jpg",
+        "fruitc.jpg",
+        "fruita.jpg"
+      ]
+    },
+    {
+      "question": "篮子里有很多水果 lán zǐ lǐ yǒu hěn duō shuǐ guǒ",
+      "answer": 2,
+      "audio": "fruith.mp3",
+      "picture": [
+        "fruitb.jpg",
+        "fruitf.jpg",
+        "fruith.jpg",
+        "fruita.jpg"
+      ]
+    },
+    {
+      "question": "西瓜 xī guā",
+      "answer": 0,
+      "audio": "fruiti.mp3",
+      "picture": [
+        "fruiti.jpg",
+        "fruitg.jpg",
+        "fruita.jpg",
+        "fruitc.jpg"
+      ]
+    },
+    {
+      "question": "红莓 hóng méi",
+      "answer": 3,
+      "audio": "fruitj.mp3",
+      "picture": [
+        "fruith.jpg",
+        "fruitd.jpg",
+        "fruita.jpg",
+        "fruitj.jpg"
+      ]
+    },
+    {
+      "question": "莓果 méi guǒ",
+      "answer": 1,
+      "audio": "fruitk.mp3",
+      "picture": [
+        "fruitf.jpg",
+        "fruitk.jpg",
+        "fruiti.jpg",
+        "fruite.jpg"
+      ]
+    },
+    {
+      "question": "木瓜 mù guā",
+      "answer": 2,
+      "audio": "fruitl.mp3",
+      "picture": [
+        "fruitg.jpg",
+        "fruitd.jpg",
+        "fruitl.jpg",
+        "fruitf.jpg"
+      ]
+    }
+  ]
+}

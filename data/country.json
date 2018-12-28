@@ -1,0 +1,226 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "中国 zhōng guó",
+      "answer": 2,
+      "audio": "countrya.mp3",
+      "picture": [
+        "countryt.jpg",
+        "countryc.jpg",
+        "countrya.jpg",
+        "countryg.jpg"
+      ]
+    },
+    {
+      "question": "巴西 bā xī",
+      "answer": 1,
+      "audio": "countryb.mp3",
+      "picture": [
+        "countryk.jpg",
+        "countryb.jpg",
+        "countrye.jpg",
+        "countrys.jpg"
+      ]
+    },
+    {
+      "question": "法国 fǎ guó",
+      "answer": 3,
+      "audio": "countryc.mp3",
+      "picture": [
+        "countryg.jpg",
+        "countrya.jpg",
+        "countryf.jpg",
+        "countryc.jpg"
+      ]
+    },
+    {
+      "question": "美国 měi guó",
+      "answer": 0,
+      "audio": "countryd.mp3",
+      "picture": [
+        "countryd.jpg",
+        "countrym.jpg",
+        "countryb.jpg",
+        "countryq.jpg"
+      ]
+    },
+    {
+      "question": "英国 yīng guó",
+      "answer": 3,
+      "audio": "countrye.mp3",
+      "picture": [
+        "countryk.jpg",
+        "countryc.jpg",
+        "countryi.jpg",
+        "countrye.jpg"
+      ]
+    },
+    {
+      "question": "希腊 xī là",
+      "answer": 1,
+      "audio": "countryf.mp3",
+      "picture": [
+        "countryg.jpg",
+        "countryf.jpg",
+        "countrys.jpg",
+        "countryb.jpg"
+      ]
+    },
+    {
+      "question": "荷兰 hé lán",
+      "answer": 1,
+      "audio": "countryg.mp3",
+      "picture": [
+        "countryn.jpg",
+        "countryg.jpg",
+        "countryc.jpg",
+        "countrym.jpg"
+      ]
+    },
+    {
+      "question": "西班牙 xī bān yá",
+      "answer": 2,
+      "audio": "countryh.mp3",
+      "picture": [
+        "countryb.jpg",
+        "countryf.jpg",
+        "countryh.jpg",
+        "countrya.jpg"
+      ]
+    },
+    {
+      "question": "非洲 fēi zhōu",
+      "answer": 0,
+      "audio": "countryi.mp3",
+      "picture": [
+        "countryi.jpg",
+        "countryg.jpg",
+        "countryn.jpg",
+        "countryc.jpg"
+      ]
+    },
+    {
+      "question": "亚洲 yà zhōu",
+      "answer": 3,
+      "audio": "countryj.mp3",
+      "picture": [
+        "countrym.jpg",
+        "countryd.jpg",
+        "countryt.jpg",
+        "countryj.jpg"
+      ]
+    },
+    {
+      "question": "欧洲 ōu zhōu",
+      "answer": 1,
+      "audio": "countryk.mp3",
+      "picture": [
+        "countryn.jpg",
+        "countryk.jpg",
+        "countrym.jpg",
+        "countrye.jpg"
+      ]
+    },
+    {
+      "question": "南极 nán jí",
+      "answer": 2,
+      "audio": "countryl.mp3",
+      "picture": [
+        "countryr.jpg",
+        "countryd.jpg",
+        "countryl.jpg",
+        "countryf.jpg"
+      ]
+    },
+    {
+      "question": "日本 rì běn",
+      "answer": 0,
+      "audio": "countrym.mp3",
+      "picture": [
+        "countrym.jpg",
+        "countrye.jpg",
+        "countryr.jpg",
+        "countryd.jpg"
+      ]
+    },
+    {
+      "question": "澳大利亚 ào dà lì yà",
+      "answer": 2,
+      "audio": "countryn.mp3",
+      "picture": [
+        "countryq.jpg",
+        "countryk.jpg",
+        "countryn.jpg",
+        "countrye.jpg"
+      ]
+    },
+    {
+      "question": "印度 yìn dù",
+      "answer": 1,
+      "audio": "countryo.mp3",
+      "picture": [
+        "countryg.jpg",
+        "countryo.jpg",
+        "countryn.jpg",
+        "countryi.jpg"
+      ]
+    },
+    {
+      "question": "意大利 yì dà lì",
+      "answer": 3,
+      "audio": "countryp.mp3",
+      "picture": [
+        "countrya.jpg",
+        "countryk.jpg",
+        "countryb.jpg",
+        "countryp.jpg"
+      ]
+    },
+    {
+      "question": "德国 dé guó",
+      "answer": 0,
+      "audio": "countryq.mp3",
+      "picture": [
+        "countryq.jpg",
+        "countryf.jpg",
+        "countryc.jpg",
+        "countryj.jpg"
+      ]
+    },
+    {
+      "question": "南非 nán fēi",
+      "answer": 2,
+      "audio": "countryr.mp3",
+      "picture": [
+        "countryd.jpg",
+        "countryr.jpg",
+        "countrys.jpg",
+        "countrye.jpg"
+      ]
+    },
+    {
+      "question": "马尔代夫 mǎ ěr dài fū",
+      "answer": 1,
+      "audio": "countrys.mp3",
+      "picture": [
+        "countrya.jpg",
+        "countrys.jpg",
+        "countryn.jpg",
+        "countryt.jpg"
+      ]
+    },
+    {
+      "question": "俄罗斯 é luó sī",
+      "answer": 2,
+      "audio": "countryt.mp3",
+      "picture": [
+        "countryb.jpg",
+        "countryt.jpg",
+        "countryf.jpg",
+        "countryl.jpg"
+      ]
+    }
+
+  ]
+}

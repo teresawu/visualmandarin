@@ -1,0 +1,170 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "冰箱 bīng xiāng",
+      "answer": 2,
+      "audio": "kitchena.mp3",
+      "picture": [
+        "kitchenh.jpg",
+        "kitchenc.jpg",
+        "kitchena.jpg",
+        "kitcheng.jpg"
+      ]
+    },
+    {
+      "question": "微波炉 wēi bō lú",
+      "answer": 1,
+      "audio": "kitchenb.mp3",
+      "picture": [
+        "kitchenk.jpg",
+        "kitchenb.jpg",
+        "kitchene.jpg",
+        "kitchenl.jpg"
+      ]
+    },
+    {
+      "question": "烤箱 kǎo xiāng",
+      "answer": 3,
+      "audio": "kitchenc.mp3",
+      "picture": [
+        "kitcheng.jpg",
+        "kitchena.jpg",
+        "kitchenf.jpg",
+        "kitchenc.jpg"
+      ]
+    },
+    {
+      "question": "炒锅 chǎo guō",
+      "answer": 0,
+      "audio": "kitchend.mp3",
+      "picture": [
+        "kitchend.jpg",
+        "kitchenm.jpg",
+        "kitchenb.jpg",
+        "kitchenq.jpg"
+      ]
+    },
+    {
+      "question": "烤面包机 kǎo miàn bāo jī",
+      "answer": 3,
+      "audio": "kitchene.mp3",
+      "picture": [
+        "kitchenk.jpg",
+        "kitchenc.jpg",
+        "kitcheni.jpg",
+        "kitchene.jpg"
+      ]
+    },
+    {
+      "question": "蒸锅 zhēng guō",
+      "answer": 1,
+      "audio": "kitchenf.mp3",
+      "picture": [
+        "kitcheng.jpg",
+        "kitchenf.jpg",
+        "kitcheno.jpg",
+        "kitchenb.jpg"
+      ]
+    },
+    {
+      "question": "刀叉 dāo chā",
+      "answer": 1,
+      "audio": "kitcheng.mp3",
+      "picture": [
+        "kitchenn.jpg",
+        "kitcheng.jpg",
+        "kitchenc.jpg",
+        "kitchenm.jpg"
+      ]
+    },
+    {
+      "question": "勺子 sháo zǐ",
+      "answer": 2,
+      "audio": "kitchenh.mp3",
+      "picture": [
+        "kitchenb.jpg",
+        "kitchenf.jpg",
+        "kitchenh.jpg",
+        "kitchena.jpg"
+      ]
+    },
+    {
+      "question": "饮水机 yǐn shuǐ jī",
+      "answer": 0,
+      "audio": "kitcheni.mp3",
+      "picture": [
+        "kitcheni.jpg",
+        "kitcheng.jpg",
+        "kitchenn.jpg",
+        "kitchenc.jpg"
+      ]
+    },
+    {
+      "question": "烧水壶 shāo shuǐ hú",
+      "answer": 3,
+      "audio": "kitchenj.mp3",
+      "picture": [
+        "kitchenm.jpg",
+        "kitchend.jpg",
+        "kitcheno.jpg",
+        "kitchenj.jpg"
+      ]
+    },
+    {
+      "question": "烤面包 kǎo miàn bāo",
+      "answer": 1,
+      "audio": "kitchenk.mp3",
+      "picture": [
+        "kitchenn.jpg",
+        "kitchenk.jpg",
+        "kitchenm.jpg",
+        "kitchene.jpg"
+      ]
+    },
+    {
+      "question": "咖啡机 kā fēi jī",
+      "answer": 2,
+      "audio": "kitchenl.mp3",
+      "picture": [
+        "kitchenr.jpg",
+        "kitchend.jpg",
+        "kitchenl.jpg",
+        "kitchenf.jpg"
+      ]
+    },
+    {
+      "question": "一碗面 yī wǎn miàn",
+      "answer": 0,
+      "audio": "kitchenm.mp3",
+      "picture": [
+        "kitchenm.jpg",
+        "kitchene.jpg",
+        "kitchenr.jpg",
+        "kitchend.jpg"
+      ]
+    },
+    {
+      "question": "一碗汤 yī wǎn tāng",
+      "answer": 2,
+      "audio": "kitchenn.mp3",
+      "picture": [
+        "kitchenq.jpg",
+        "kitchenk.jpg",
+        "kitchenn.jpg",
+        "kitchene.jpg"
+      ]
+    },
+    {
+      "question": "筷子 kuài zǐ",
+      "answer": 1,
+      "audio": "kitcheno.mp3",
+      "picture": [
+        "kitcheng.jpg",
+        "kitcheno.jpg",
+        "kitchenn.jpg",
+        "kitcheni.jpg"
+      ]
+    }
+  ]
+}

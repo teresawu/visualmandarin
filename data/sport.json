@@ -1,0 +1,137 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "足球 zú qiú",
+      "answer": 2,
+      "audio": "sporta.mp3",
+      "picture": [
+        "sportk.jpg",
+        "sportc.jpg",
+        "sporta.jpg",
+        "sportg.jpg"
+      ]
+    },
+    {
+      "question": "篮球 lán qiú",
+      "answer": 1,
+      "audio": "sportb.mp3",
+      "picture": [
+        "sportk.jpg",
+        "sportb.jpg",
+        "sporte.jpg",
+        "sportj.jpg"
+      ]
+    },
+    {
+      "question": "游泳 yóu yǒng",
+      "answer": 3,
+      "audio": "sportc.mp3",
+      "picture": [
+        "sportg.jpg",
+        "sporta.jpg",
+        "sportf.jpg",
+        "sportc.jpg"
+      ]
+    },
+    {
+      "question": "乒乓球 pīng pāng qiú",
+      "answer": 0,
+      "audio": "sportd.mp3",
+      "picture": [
+        "sportd.jpg",
+        "sporta.jpg",
+        "sportb.jpg",
+        "sportd.jpg"
+      ]
+    },
+    {
+      "question": "骑自行车 qí zì háng chē",
+      "answer": 3,
+      "audio": "sporte.mp3",
+      "picture": [
+        "sportk.jpg",
+        "sportc.jpg",
+        "sporti.jpg",
+        "sporte.jpg"
+      ]
+    },
+    {
+      "question": "潜水 qián shuǐ",
+      "answer": 1,
+      "audio": "sportf.mp3",
+      "picture": [
+        "sportg.jpg",
+        "sportf.jpg",
+        "sportk.jpg",
+        "sportb.jpg"
+      ]
+    },
+    {
+      "question": "高尔夫 gāo ěr fū",
+      "answer": 1,
+      "audio": "sportg.mp3",
+      "picture": [
+        "sporte.jpg",
+        "sportg.jpg",
+        "sportc.jpg",
+        "sportb.jpg"
+      ]
+    },
+    {
+      "question": "桌球 zhuō qiú",
+      "answer": 2,
+      "audio": "sporth.mp3",
+      "picture": [
+        "sportb.jpg",
+        "sportf.jpg",
+        "sporth.jpg",
+        "sporta.jpg"
+      ]
+    },
+    {
+      "question": "赛车 sài chē",
+      "answer": 0,
+      "audio": "sporti.mp3",
+      "picture": [
+        "sporti.jpg",
+        "sportg.jpg",
+        "sporti.jpg",
+        "sportc.jpg"
+      ]
+    },
+    {
+      "question": "网球 wǎng qiú",
+      "answer": 3,
+      "audio": "sportj.mp3",
+      "picture": [
+        "sporta.jpg",
+        "sportd.jpg",
+        "sportk.jpg",
+        "sportj.jpg"
+      ]
+    },
+    {
+      "question": "跑步 pǎo bù",
+      "answer": 1,
+      "audio": "sportk.mp3",
+      "picture": [
+        "sportn.jpg",
+        "sportk.jpg",
+        "sportc.jpg",
+        "sporte.jpg"
+      ]
+    },
+    {
+      "question": "骑马很危险 qí mǎ hěn wēi xiǎn",
+      "answer": 2,
+      "audio": "sportl.mp3",
+      "picture": [
+        "sporte.jpg",
+        "sportd.jpg",
+        "sportl.jpg",
+        "sportf.jpg"
+      ]
+    }
+  ]
+}

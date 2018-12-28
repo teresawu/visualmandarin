@@ -1,0 +1,93 @@
+{
+  "index": 0,
+  "data": [
+    {
+      "question": "茄子 qié zǐ",
+      "answer": 2,
+      "audio": "vegetablea.mp3",
+      "picture": [
+        "vegetableh.jpg",
+        "vegetablec.jpg",
+        "vegetablea.jpg",
+        "vegetableg.jpg"
+      ]
+    },
+    {
+      "question": "番茄 fān qié",
+      "answer": 1,
+      "audio": "vegetableb.mp3",
+      "picture": [
+        "vegetablea.jpg",
+        "vegetableb.jpg",
+        "vegetablee.jpg",
+        "vegetables.jpg"
+      ]
+    },
+    {
+      "question": "生菜 shēng cài",
+      "answer": 3,
+      "audio": "vegetablec.mp3",
+      "picture": [
+        "vegetableg.jpg",
+        "vegetablea.jpg",
+        "vegetablef.jpg",
+        "vegetablec.jpg"
+      ]
+    },
+    {
+      "question": "黄瓜 huáng guā",
+      "answer": 0,
+      "audio": "vegetabled.mp3",
+      "picture": [
+        "vegetabled.jpg",
+        "vegetablee.jpg",
+        "vegetableb.jpg",
+        "vegetableq.jpg"
+      ]
+    },
+    {
+      "question": "洋葱 yáng cōng",
+      "answer": 3,
+      "audio": "vegetablee.mp3",
+      "picture": [
+        "vegetabled.jpg",
+        "vegetablec.jpg",
+        "vegetablei.jpg",
+        "vegetablee.jpg"
+      ]
+    },
+    {
+      "question": "西兰花 xī lán huā",
+      "answer": 1,
+      "audio": "vegetablef.mp3",
+      "picture": [
+        "vegetableg.jpg",
+        "vegetablef.jpg",
+        "vegetables.jpg",
+        "vegetableb.jpg"
+      ]
+    },
+    {
+      "question": "胡萝卜 hú luó bo",
+      "answer": 1,
+      "audio": "vegetableg.mp3",
+      "picture": [
+        "vegetablef.jpg",
+        "vegetableg.jpg",
+        "vegetablec.jpg",
+        "vegetabled.jpg"
+      ]
+    },
+    {
+      "question": "南瓜 nán guā",
+      "answer": 2,
+      "audio": "vegetableh.mp3",
+      "picture": [
+        "vegetableb.jpg",
+        "vegetablef.jpg",
+        "vegetableh.jpg",
+        "vegetablea.jpg"
+      ]
+    }
+  ]
+}
