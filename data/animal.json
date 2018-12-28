@@ -4,7 +4,7 @@
     {
       "question": "老虎 lǎo hǔ",
       "answer": 2,
-      "audio": "",
+      "audio": "animala.mp3",
       "picture": [
         "animali.jpg",
         "animalc.jpg",
@@ -15,7 +15,7 @@
     {
       "question": "熊猫 xióng māo",
       "answer": 1,
-      "audio": "",
+      "audio": "animalb.mp3",
       "picture": [
         "animalk.jpg",
         "animalb.jpg",
@@ -26,7 +26,7 @@
     {
       "question": "企鹅 qǐ é",
       "answer": 3,
-      "audio": "",
+      "audio": "animalc.mp3",
       "picture": [
         "animalg.jpg",
         "animala.jpg",
@@ -37,7 +37,7 @@
     {
       "question": "鱼 yú",
       "answer": 0,
-      "audio": "",
+      "audio": "animald.mp3",
       "picture": [
         "animald.jpg",
         "animalm.jpg",
@@ -48,7 +48,7 @@
     {
       "question": "海豚 hǎi tún",
       "answer": 3,
-      "audio": "",
+      "audio": "animale.mp3",
       "picture": [
         "animalk.jpg",
         "animalc.jpg",
@@ -59,7 +59,7 @@
     {
       "question": "松鼠 sōng shǔ",
       "answer": 1,
-      "audio": "",
+      "audio": "animalf.mp3",
       "picture": [
         "animalg.jpg",
         "animalf.jpg",
@@ -70,7 +70,7 @@
     {
       "question": "黄色的小鸡 huáng sè de xiǎo jī",
       "answer": 1,
-      "audio": "",
+      "audio": "animalg.mp3",
       "picture": [
         "animaln.jpg",
         "animalg.jpg",
@@ -81,7 +81,7 @@
     {
       "question": "蝴蝶 hú dié",
       "answer": 2,
-      "audio": "",
+      "audio": "animalh.mp3",
       "picture": [
         "animalb.jpg",
         "animalf.jpg",
@@ -92,7 +92,7 @@
     {
       "question": "孔雀 kǒng què",
       "answer": 0,
-      "audio": "",
+      "audio": "animali.mp3",
       "picture": [
         "animali.jpg",
         "animalg.jpg",
@@ -103,7 +103,7 @@
     {
       "question": "马 mǎ",
       "answer": 3,
-      "audio": "",
+      "audio": "animalj.mp3",
       "picture": [
         "animalm.jpg",
         "animald.jpg",
@@ -114,7 +114,7 @@
     {
       "question": "狮子 shī zǐ",
       "answer": 1,
-      "audio": "",
+      "audio": "animalk.mp3",
       "picture": [
         "animaln.jpg",
         "animalk.jpg",
@@ -125,7 +125,7 @@
     {
       "question": "羊 yáng",
       "answer": 2,
-      "audio": "",
+      "audio": "animall.mp3",
       "picture": [
         "animale.jpg",
         "animald.jpg",
@@ -136,7 +136,7 @@
     {
       "question": "大象 dà xiàng",
       "answer": 0,
-      "audio": "",
+      "audio": "animalm.mp3",
       "picture": [
         "animalm.jpg",
         "animale.jpg",
@@ -147,7 +147,7 @@
     {
       "question": "鸭子在水里 yā zǐ zài shuǐ lǐ",
       "answer": 2,
-      "audio": "",
+      "audio": "animaln.mp3",
       "picture": [
         "animalg.jpg",
         "animalk.jpg",

@@ -5,6 +5,8 @@ class Keys {
 
   static String PATH_IMAGE = 'data/image/';
 
+  static String PATH_AUDIO = 'data/audio/';
+
   static int DARK_GREY = 0xff515151;
 
   static String TITLE = "Animal";

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/model/Question.dart';
 import 'package:visualmandarin/question/QuestionWidget.dart';
+import 'package:audioplayers/audio_cache.dart';
 
 class QuestionView extends StatefulWidget {
   final String title;
@@ -13,6 +14,7 @@ class QuestionView extends StatefulWidget {
 }
 
 class QuestionViewState extends State<QuestionView> {
+  AudioCache audioCache = new AudioCache();
   Question question;
 
   QuestionViewState() {
@@ -29,7 +31,8 @@ class QuestionViewState extends State<QuestionView> {
             padding: EdgeInsets.only(left: 20.0, top: 50.0, right: 25.0),
             child: Scaffold(
                 appBar: AppBar(
-                    title: Text(question.data[0].question, style: TextStyle(fontSize: 25.0)),
+                    title: Text(question.data[0].question,
+                        style: TextStyle(fontSize: 25.0)),
                     backgroundColor: Color(Keys.DARK_GREY),
                     elevation: 0.0,
                     centerTitle: false),
@@ -39,6 +42,16 @@ class QuestionViewState extends State<QuestionView> {
                       crossAxisCount: 2,
                       children: loadQuestions(question.data[0])),
                 ),
-                floatingActionButton: floatingButton())));
+                floatingActionButton: FloatingActionButton(
+                    onPressed: () {
+                      print("button clicked");
+                      audioCache.play(question.data[0].audio);
+                    },
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.white,
+                    child: Icon(
+                      Icons.audiotrack,
+                      color: Colors.orange,
+                    )))));
   }
 }

@@ -5,17 +5,6 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/model/Question.dart';
 
-FloatingActionButton floatingButton() {
-  return FloatingActionButton(
-      backgroundColor: Colors.white,
-      foregroundColor: Colors.white,
-      child: Icon(
-        Icons.audiotrack,
-        color: Colors.orange,
-      ));
-//  onPressed: sendData,
-}
-
 List<Widget> loadQuestions(Data data) {
   List<Widget> questionCell = [];
   var _splashColor =

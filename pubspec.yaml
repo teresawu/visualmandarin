@@ -10,6 +10,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   json_serializable: ^2.0.1
+  audioplayers: ^0.7.8
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +21,4 @@ flutter:
   assets:
   - data/
   - data/image/
+  - assets/
