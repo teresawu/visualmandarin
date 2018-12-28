@@ -1,30 +1,52 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:visualmandarin/model/Question.dart';
-import 'package:visualmandarin/Keys.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:visualmandarin/Keys.dart';
+import 'package:visualmandarin/model/Question.dart';
 
-List<Question> parsePhotos(String responseBody) {
-  final parsed = json.decode(responseBody).cast<Map<String, dynamic>>();
-
-  return parsed.map<Question>((json) => Question.fromJson(json)).toList();
+FloatingActionButton floatingButton() {
+  return FloatingActionButton(
+      backgroundColor: Colors.white,
+      foregroundColor: Colors.white,
+      child: Icon(
+        Icons.audiotrack,
+        color: Colors.orange,
+      ));
+//  onPressed: sendData,
 }
 
-Future<String> awaitLoading() async {
+List<Widget> loadQuestions(Data data) {
+  List<Widget> questionCell = [];
+  var _splashColor =
+      data.answer == 2 ? Colors.green.withAlpha(60) : Colors.red.withAlpha(60);
+
+  var _highlightColor = data.answer == 2
+      ? Colors.green.withAlpha(100)
+      : Colors.red.withAlpha(100);
+
+  for (int i = 0; i < data.imagesList.length; i++)
+    questionCell.add(Card(
+      color: Colors.white,
+      child: InkWell(
+        highlightColor: _highlightColor,
+        splashColor: _splashColor,
+        child: Center(
+            child: Image(image: AssetImage(data.imagesList[i].toString()))),
+        onTap: () {
+          print("tapped");
+        },
+      ),
+    ));
+  return questionCell;
+}
+
+Future<String> loadAsset() async {
   return await rootBundle.loadString(Keys.JSON_PATH_ANIMAL);
 }
 
-Future loadQuestion() async {
-  final jsonResponse = json.decode(await awaitLoading());
-  Question question = new Question.fromJson(jsonResponse);
-}
-
-factory Question.fromJson(Map<String, dynamic> parsedJson) {
-return new Question(
-question: parsedJson['question'],
-answer: parsedJson['answer'],
-audio: parsedJson['audio'],
-images: parsedJson['images'];
-);
+Future<Question> loadQuestion() async {
+  String jsonPage = await loadAsset();
+  final jsonResponse = json.decode(jsonPage);
+  return await Question.fromJson(jsonResponse);
 }

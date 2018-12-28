@@ -1,43 +1,44 @@
-//class Question {
-//  List<String> images;
-//  final String question;
-//  final int answer;
-//  final String audio;
-//
-//  Question(this.question, this.answer, this.audio, this.images);
-//
-//  Question.fromJson(Map<String, dynamic> json)
-//      : question = json['question'],
-//        answer = json['answer'],
-//        audio = json['audio'],
-//        images = json['images'];
-//
-//  Map<String, dynamic> toJson() => {
-//        'question': question,
-//        'answer': answer,
-//        'audio': audio,
-//        'image': image
-//      };
-//}
-//
-
 class Question {
-  List<String> images;
-  final String question;
-  final int answer;
-  final String audio;
+  int index;
+  List<Data> data;
 
-  Question({this.question, this.answer, this.audio, this.images});
+  Question({this.index, this.data});
 
   factory Question.fromJson(Map<String, dynamic> parsedJson) {
-    var questionFromJson = parsedJson['image'];
-    List<String> imageList = questionFromJson.cast<String>();
+    var list = parsedJson['data'] as List;
+    List<Data> data = list.map((i) => Data.fromJson(i)).toList();
+    return Question(index: parsedJson['index'], data: data);
+  }
+}
 
-    return new Question(
+class Data {
+  String question;
+  int answer;
+  String audio;
+  List<Picture> imagesList;
+
+  Data({this.question, this.answer, this.audio, this.imagesList});
+
+  factory Data.fromJson(Map<String, dynamic> parsedJson) {
+    var list = parsedJson['image'] as List;
+    List<Picture> images = list.map((i) => Picture.fromJson(i)).toList();
+
+    return Data(
         question: parsedJson['question'],
         answer: parsedJson['answer'],
         audio: parsedJson['audio'],
-        images: parsedJson['images'];
+        imagesList: images);
+  }
+}
+
+class Picture {
+  String imageName;
+
+  Picture({this.imageName});
+
+  factory Picture.fromJson(Map<String, dynamic> parsedJson) {
+    return Picture(
+      imageName: parsedJson['image'],
     );
   }
 }
