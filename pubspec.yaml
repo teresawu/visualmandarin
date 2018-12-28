@@ -17,5 +17,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - data/menu.json
+  - data/
   - data/image/

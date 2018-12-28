@@ -1,0 +1,156 @@
+[
+  {
+    "question": "老虎 lǎo hǔ",
+    "answer": 2,
+    "audio": "",
+    "image": [
+      "animalc",
+      "animalm",
+      "animala",
+      "animalg"
+    ]
+  },
+  {
+    "question": "熊猫 xióng māo",
+    "answer": 1,
+    "audio": "",
+    "image": [
+      "animalk",
+      "animalb",
+      "animale",
+      "animala"
+    ]
+  },
+  {
+    "question": "企鹅 qǐ é",
+    "answer": 3,
+    "audio": "",
+    "image": [
+      "animalg",
+      "animala",
+      "animalf",
+      "animalc"
+    ]
+  },
+  {
+    "question": "鱼 yú",
+    "answer": 0,
+    "audio": "",
+    "image": [
+      "animald",
+      "animalm",
+      "animalb",
+      "animalc"
+    ]
+  },
+  {
+    "question": "海豚 hǎi tún",
+    "answer": 3,
+    "audio": "",
+    "image": [
+      "animalk",
+      "animalc",
+      "animali",
+      "animale"
+    ]
+  },
+  {
+    "question": "松鼠 sōng shǔ",
+    "answer": 1,
+    "audio": "",
+    "image": [
+      "animalg",
+      "animalf",
+      "animalk",
+      "animalb"
+    ]
+  },
+  {
+    "question": "黄色的小鸡 huáng sè de xiǎo jī",
+    "answer": 1,
+    "audio": "",
+    "image": [
+      "animaln",
+      "animalg",
+      "animalc",
+      "animalm"
+    ]
+  },
+  {
+    "question": "蝴蝶 hú dié",
+    "answer": 2,
+    "audio": "",
+    "image": [
+      "animalb",
+      "animalf",
+      "animalh",
+      "animala"
+    ]
+  },
+  {
+    "question": "孔雀 kǒng què",
+    "answer": 0,
+    "audio": "",
+    "image": [
+      "animali",
+      "animalg",
+      "animaln",
+      "animalc"
+    ]
+  },
+  {
+    "question": "马 mǎ",
+    "answer": 3,
+    "audio": "",
+    "image": [
+      "animalm",
+      "animald",
+      "animale",
+      "animalj"
+    ]
+  },
+  {
+    "question": "狮子 shī zǐ",
+    "answer": 1,
+    "audio": "",
+    "image": [
+      "animaln",
+      "animalk",
+      "animalm",
+      "animale"
+    ]
+  },
+  {
+    "question": "羊 yáng",
+    "answer": 2,
+    "audio": "",
+    "image": [
+      "animale",
+      "animald",
+      "animall",
+      "animalf"
+    ]
+  },
+  {
+    "question": "大象 dà xiàng",
+    "answer": 0,
+    "audio": "",
+    "image": [
+      "animalm",
+      "animale",
+      "animalg",
+      "animald"
+    ]
+  },
+  {
+    "question": "鸭子在水里 yā zǐ zài shuǐ lǐ",
+    "answer": 2,
+    "audio": "",
+    "image": [
+      "animalg",
+      "animalk",
+      "animaln",
+      "animale"
+    ]
+  }
+]
