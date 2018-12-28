@@ -4,7 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 
-Positioned getPositioned(double screenWidth, double value) {
+Positioned getTitleStyle(double screenWidth, double value) {
   return Positioned(
     top: 32.0,
     left: 40.0,
@@ -20,35 +20,32 @@ Positioned getPositioned(double screenWidth, double value) {
             height: double.infinity,
             child: Opacity(
               opacity: value,
-              child: Text('QUESTIONS',
+              child: Text(Keys.TITLE,
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 2.0,
-                  )),
+                  style: TextStyle(color: Colors.white, fontSize: 20.0)),
             ),
           ),
         )),
   );
 }
 
-Positioned getHamPositioned(Function func) {
+Positioned getHamburgerIcon(Function func) {
   return Positioned(
     top: 32.0,
     left: 4.0,
     child: IconButton(
-        icon: const Icon(
-          Icons.menu,
-          color: Colors.white,
-        ),
-        onPressed: func),
+      icon: const Icon(
+        Icons.menu,
+        color: Colors.white,
+      ),
+      onPressed: () {
+        func(-1);
+      },
+    ),
   );
 }
 
-Padding getPadding(BuildContext context) {
-  int _itemCount = 11;
+Widget loadNavData(BuildContext context, Function func) {
   return Padding(
     padding: const EdgeInsets.only(left: 40.0, top: 96.0),
     child: Container(
@@ -69,7 +66,7 @@ Padding getPadding(BuildContext context) {
                               color: Color(Keys.DARK_GREY),
                               elevation: 20.0,
                               onPressed: () {
-                                print('Button clicked');
+                                func(index);
                               },
                               child: Text(
                                 menuData[index]['title'].toString(),

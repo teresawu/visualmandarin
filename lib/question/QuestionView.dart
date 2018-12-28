@@ -25,25 +25,31 @@ class QuestionViewState extends State<QuestionView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: Color(Keys.DARK_GREY),
-        child: Padding(
-          padding: EdgeInsets.only(left: 20.0, top: 80.0, right: 25.0),
-          child: Container(
+    return Container(
+      color: Color(Keys.DARK_GREY),
+      child: Padding(
+        padding: EdgeInsets.only(left: 20.0, top: 50.0, right: 25.0),
+        child: Scaffold(
+          appBar: AppBar(
+              title: Text('老虎', style: TextStyle(fontSize: 25.0)),
+              backgroundColor: Color(Keys.DARK_GREY),
+              elevation: 0.0,
+              centerTitle: false),
+          body: Container(
+            color: Color(Keys.DARK_GREY),
             child:
                 GridView.count(crossAxisCount: 2, children: loadCategories()),
           ),
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.white,
-        foregroundColor: Colors.white,
-        child: Icon(
-          Icons.audiotrack,
-          color: Colors.orange,
-        ),
+          floatingActionButton: FloatingActionButton(
+            backgroundColor: Colors.white,
+            foregroundColor: Colors.white,
+            child: Icon(
+              Icons.audiotrack,
+              color: Colors.orange,
+            ),
 //        onPressed: sendData,
+          ),
+        ),
       ),
     );
   }

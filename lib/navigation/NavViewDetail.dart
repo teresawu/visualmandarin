@@ -68,16 +68,18 @@ class NavViewDetailState extends State<NavViewDetail>
             color: Color(Keys.DARK_GREY),
             child: Stack(
               children: <Widget>[
-                getPositioned(screenWidth, animationFadeInOut.value),
-                getHamPositioned(playAnimation),
-                getPadding(context)
+                getTitleStyle(screenWidth, animationFadeInOut.value),
+                getHamburgerIcon(playAnimation),
+                loadNavData(context, playAnimation)
               ],
             ),
           ),
         ));
   }
 
-  void playAnimation() {
+  void playAnimation(int index) {
+    if (index != -1) Keys.INDEX = index;
+    print(animationStatus.toString() + " " + Keys.INDEX.toString());
     try {
       if (animationStatus == MenuAnimationStatus.animation) {
       } else if (animationStatus == MenuAnimationStatus.close)
