@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/model/Question.dart';
 import 'package:visualmandarin/question/QuestionWidget.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 class QuestionView extends StatefulWidget {
   final String title;
@@ -35,7 +36,7 @@ class QuestionViewState extends State<QuestionView> {
             child: Scaffold(
                 appBar: AppBar(
                     title:
-                        Text(data.question, style: TextStyle(fontSize: 25.0)),
+                    AutoSizeText(data.question, style: TextStyle(fontSize: 25.0), maxLines: 3),
                     backgroundColor: Color(Keys.DARK_GREY),
                     elevation: 0.0,
                     centerTitle: false),
