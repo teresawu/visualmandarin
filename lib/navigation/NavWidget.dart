@@ -45,7 +45,7 @@ Positioned getHamburgerIcon(Function func) {
   );
 }
 
-Widget loadNavData(BuildContext context, Function func) {
+Widget loadNavData(BuildContext context, Function func, Function func2) {
   return Padding(
     padding: const EdgeInsets.only(left: 40.0, top: 96.0),
     child: Container(
@@ -67,9 +67,10 @@ Widget loadNavData(BuildContext context, Function func) {
                               elevation: 20.0,
                               onPressed: () {
                                 func();
-                                Keys.INDEX = index;
+                                Keys.PATH = Keys.indexMap[index];
                                 Keys.TITLE =
                                     menuData[index]['title'].toString();
+                                func2();
                               },
                               child: Text(
                                 menuData[index]['title'].toString(),

@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/navigation/NavWidget.dart';
+import 'package:visualmandarin/question/QuestionWidget.dart';
 
 class NavViewDetail extends StatefulWidget {
   @override
@@ -70,7 +71,7 @@ class NavViewDetailState extends State<NavViewDetail>
               children: <Widget>[
                 getTitleStyle(screenWidth, animationFadeInOut.value),
                 getHamburgerIcon(playAnimation),
-                loadNavData(context, playAnimation)
+                loadNavData(context, playAnimation, refreshPage)
               ],
             ),
           ),
@@ -85,6 +86,13 @@ class NavViewDetailState extends State<NavViewDetail>
       else
         animationController.reverse().orCancel;
     } on TickerCanceled {}
+  }
+
+  void refreshPage() {
+    loadQuestion(Keys.PATH).then((val) => setState(() {
+          Keys.question = val;
+          Keys.data = (Keys.question.data..shuffle()).first;
+        }));
   }
 }
 

@@ -17,7 +17,7 @@ class NavViewState extends State<NavView> {
         child: new Stack(
           alignment: Alignment.topLeft,
           children: <Widget>[
-            QuestionView(title: ""),
+            QuestionView(),
             NavViewDetail(),
           ],
         ),

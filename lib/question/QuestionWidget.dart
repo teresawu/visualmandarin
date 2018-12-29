@@ -30,7 +30,7 @@ List<Widget> loadQuestions(Data data, Function func) {
                     Keys.PATH_IMAGE + data.imagesList[i].toString()))),
         onTap: () {
           func();
-          print("tapped " + clickIndex.toString());
+//          print("tapped " + clickIndex.toString());
         },
       ),
     ));
@@ -38,12 +38,12 @@ List<Widget> loadQuestions(Data data, Function func) {
   return questionCell;
 }
 
-Future<String> loadAsset() async {
-  return await rootBundle.loadString(Keys.JSON_PATH_ANIMAL);
+Future<String> loadAsset(String path) async {
+  return await rootBundle.loadString(path);
 }
 
-Future<Question> loadQuestion() async {
-  String jsonPage = await loadAsset();
+Future<Question> loadQuestion(String path) async {
+  String jsonPage = await loadAsset(path);
   final jsonResponse = json.decode(jsonPage);
   return await Question.fromJson(jsonResponse);
 }

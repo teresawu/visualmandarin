@@ -42,7 +42,7 @@
         "kitchend.jpg",
         "kitchenm.jpg",
         "kitchenb.jpg",
-        "kitchenq.jpg"
+        "kitchenh.jpg"
       ]
     },
     {
@@ -127,7 +127,7 @@
       "answer": 2,
       "audio": "kitchenl.mp3",
       "picture": [
-        "kitchenr.jpg",
+        "kitchena.jpg",
         "kitchend.jpg",
         "kitchenl.jpg",
         "kitchenf.jpg"
@@ -140,7 +140,7 @@
       "picture": [
         "kitchenm.jpg",
         "kitchene.jpg",
-        "kitchenr.jpg",
+        "kitchena.jpg",
         "kitchend.jpg"
       ]
     },
@@ -149,7 +149,7 @@
       "answer": 2,
       "audio": "kitchenn.mp3",
       "picture": [
-        "kitchenq.jpg",
+        "kitchenc.jpg",
         "kitchenk.jpg",
         "kitchenn.jpg",
         "kitchene.jpg"

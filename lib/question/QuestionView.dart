@@ -1,14 +1,11 @@
 import 'package:audioplayers/audio_cache.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
-import 'package:visualmandarin/model/Question.dart';
 import 'package:visualmandarin/question/QuestionWidget.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 
 class QuestionView extends StatefulWidget {
-  final String title;
-
-  QuestionView({@required this.title}) : super();
+  QuestionView() : super();
 
   @override
   QuestionViewState createState() => QuestionViewState();
@@ -16,15 +13,9 @@ class QuestionView extends StatefulWidget {
 
 class QuestionViewState extends State<QuestionView> {
   AudioCache audioCache = new AudioCache();
-  List<Data> dataList;
-  Data data;
 
   QuestionViewState() {
-    loadQuestion().then((val) => setState(() {
-          Question question = val;
-          dataList = question.data;
-          refreshAction();
-        }));
+    refreshPage();
   }
 
   @override
@@ -35,19 +26,20 @@ class QuestionViewState extends State<QuestionView> {
             padding: EdgeInsets.only(left: 20.0, top: 50.0, right: 25.0),
             child: Scaffold(
                 appBar: AppBar(
-                    title:
-                    AutoSizeText(data.question, style: TextStyle(fontSize: 25.0), maxLines: 3),
+                    title: AutoSizeText(Keys.data.question,
+                        style: TextStyle(fontSize: 25.0), maxLines: 3),
                     backgroundColor: Color(Keys.DARK_GREY),
                     elevation: 0.0,
                     centerTitle: false),
                 body: Container(
                   color: Color(Keys.DARK_GREY),
                   child: GridView.count(
-                      crossAxisCount: 2, children: loadQuestions(data, refreshAction)),
+                      crossAxisCount: 2,
+                      children: loadQuestions(Keys.data, refreshQuestion)),
                 ),
                 floatingActionButton: FloatingActionButton(
                     onPressed: () {
-                      audioCache.play(data.audio);
+                      audioCache.play(Keys.data.audio);
                     },
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.white,
@@ -57,9 +49,16 @@ class QuestionViewState extends State<QuestionView> {
                     )))));
   }
 
-  void refreshAction() {
+  void refreshPage() {
+    loadQuestion(Keys.PATH).then((val) => setState(() {
+          Keys.question = val;
+          Keys.data = (Keys.question.data..shuffle()).first;
+        }));
+  }
+
+  void refreshQuestion() {
     setState(() {
-      data = (dataList..shuffle()).first;
+      Keys.data = (Keys.question.data..shuffle()).first;
     });
   }
 }

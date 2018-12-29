@@ -145,13 +145,24 @@
       ]
     },
     {
+      "question": "白领 bái lǐng",
+      "answer": 0,
+      "audio": "careern.mp3",
+      "picture": [
+        "careern.jpg",
+        "careerj.jpg",
+        "careero.jpg",
+        "careeri.jpg"
+      ]
+    },
+    {
       "question": "程序员 chéng xù yuán",
       "answer": 2,
-      "audio": "careern.mp3",
+      "audio": "careero.mp3",
       "picture": [
         "careerg.jpg",
         "careerk.jpg",
-        "careern.jpg",
+        "careero.jpg",
         "careere.jpg"
       ]
     }

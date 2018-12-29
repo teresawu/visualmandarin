@@ -40,7 +40,7 @@
       "audio": "colord.mp3",
       "picture": [
         "colord.jpg",
-        "colorm.jpg",
+        "colorh.jpg",
         "colorb.jpg",
         "colorc.jpg"
       ]
@@ -72,10 +72,10 @@
       "answer": 1,
       "audio": "colorg.mp3",
       "picture": [
-        "colorn.jpg",
+        "colorb.jpg",
         "colorg.jpg",
         "colorc.jpg",
-        "colorm.jpg"
+        "colork.jpg"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "picture": [
         "colori.jpg",
         "colorg.jpg",
-        "colorn.jpg",
+        "colord.jpg",
         "colorc.jpg"
       ]
     },
@@ -105,7 +105,7 @@
       "answer": 3,
       "audio": "colorj.mp3",
       "picture": [
-        "colorm.jpg",
+        "colora.jpg",
         "colord.jpg",
         "colore.jpg",
         "colorj.jpg"
@@ -114,22 +114,22 @@
     {
       "question": "紫色 zǐ sè",
       "answer": 3,
-      "audio": "colorj.mp3",
+      "audio": "colork.mp3",
       "picture": [
-        "colorm.jpg",
+        "colorl.jpg",
         "colord.jpg",
         "colore.jpg",
-        "colorj.jpg"
+        "colork.jpg"
       ]
     },
     {
       "question": "透明 tòu míng",
       "answer": 1,
-      "audio": "colork.mp3",
+      "audio": "colorl.mp3",
       "picture": [
-        "colorn.jpg",
-        "colork.jpg",
-        "colorm.jpg",
+        "colora.jpg",
+        "colorl.jpg",
+        "colori.jpg",
         "colore.jpg"
       ]
     }

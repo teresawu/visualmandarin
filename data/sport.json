@@ -42,7 +42,7 @@
         "sportd.jpg",
         "sporta.jpg",
         "sportb.jpg",
-        "sportd.jpg"
+        "sporte.jpg"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "picture": [
         "sporti.jpg",
         "sportg.jpg",
-        "sporti.jpg",
+        "sporta.jpg",
         "sportc.jpg"
       ]
     },
@@ -114,10 +114,10 @@
     {
       "question": "跑步 pǎo bù",
       "answer": 1,
-      "audio": "sportk.mp3",
+      "audio": "sportl.mp3",
       "picture": [
-        "sportn.jpg",
-        "sportk.jpg",
+        "sporth.jpg",
+        "sportl.jpg",
         "sportc.jpg",
         "sporte.jpg"
       ]
@@ -125,11 +125,11 @@
     {
       "question": "骑马很危险 qí mǎ hěn wēi xiǎn",
       "answer": 2,
-      "audio": "sportl.mp3",
+      "audio": "sportk.mp3",
       "picture": [
         "sporte.jpg",
         "sportd.jpg",
-        "sportl.jpg",
+        "sportk.jpg",
         "sportf.jpg"
       ]
     }
