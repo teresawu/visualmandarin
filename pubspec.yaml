@@ -8,6 +8,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  cloud_firestore: ^0.8.2+3
   cupertino_icons: ^0.1.2
   json_serializable: ^2.0.1
   audioplayers: ^0.7.8

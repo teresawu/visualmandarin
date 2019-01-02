@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
 
@@ -45,22 +46,60 @@ Positioned getHamburgerIcon(Function func) {
   );
 }
 
+//Widget loadNavData(BuildContext context, Function func, Function func2) {
+//  return Padding(
+//    padding: const EdgeInsets.only(left: 40.0, top: 96.0),
+//    child: Container(
+//        child: Center(
+//            child: FutureBuilder(
+//                future:
+//                    DefaultAssetBundle.of(context).loadString(Keys.JSON_PATH),
+//                builder: (context, snapshot) {
+//                  // Decode the JSON
+//                  var menuData = json.decode(snapshot.data.toString());
+//                  return ListView.builder(
+//                      itemCount: menuData.length,
+//                      padding: const EdgeInsets.only(
+//                          left: 14.0, top: 14.0, right: 50.0, bottom: 14.0),
+//                      itemBuilder: (context, index) {
+//                        return ListTile(
+//                          title: RaisedButton(
+//                              color: Color(Keys.DARK_GREY),
+//                              elevation: 20.0,
+//                              onPressed: () {
+//                                func();
+//                                Keys.PATH = Keys.indexMap[index];
+//                                Keys.TITLE =
+//                                    menuData[index]['title'].toString();
+//                                func2();
+//                              },
+//                              child: Text(
+//                                menuData[index]['title'].toString(),
+//                                style: TextStyle(
+//                                    color: Colors.white, fontSize: 18.0),
+//                              )),
+//                        );
+//                      });
+//                }))),
+//  );
+//}
+
 Widget loadNavData(BuildContext context, Function func, Function func2) {
   return Padding(
     padding: const EdgeInsets.only(left: 40.0, top: 96.0),
     child: Container(
         child: Center(
-            child: FutureBuilder(
-                future:
-                    DefaultAssetBundle.of(context).loadString(Keys.JSON_PATH),
+            child: StreamBuilder<QuerySnapshot>(
+                stream: Firestore.instance.collection('menu').snapshots(),
                 builder: (context, snapshot) {
-                  // Decode the JSON
-                  var menuData = json.decode(snapshot.data.toString());
+                  if (!snapshot.hasData) return LinearProgressIndicator();
                   return ListView.builder(
-                      itemCount: menuData.length,
+                      itemCount: 10,
                       padding: const EdgeInsets.only(
                           left: 14.0, top: 14.0, right: 50.0, bottom: 14.0),
                       itemBuilder: (context, index) {
+                        List<DocumentSnapshot> menuData = snapshot.data
+                            .documents;
                         return ListTile(
                           title: RaisedButton(
                               color: Color(Keys.DARK_GREY),
@@ -69,11 +108,11 @@ Widget loadNavData(BuildContext context, Function func, Function func2) {
                                 func();
                                 Keys.PATH = Keys.indexMap[index];
                                 Keys.TITLE =
-                                    menuData[index]['title'].toString();
+                                    menuData[index].toString();
                                 func2();
                               },
                               child: Text(
-                                menuData[index]['title'].toString(),
+                                menuData[index].toString(),
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 18.0),
                               )),
