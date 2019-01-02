@@ -7,19 +7,18 @@ import 'package:visualmandarin/model/Question.dart';
 
 List<Widget> loadQuestions(Data data, Function func) {
   List<Widget> questionCell = [];
-  int clickIndex = 0;
-  var _splashColor = data.answer == clickIndex
-      ? Colors.green.withAlpha(60)
-      : Colors.red.withAlpha(60);
-
-  var _highlightColor = data.answer == clickIndex
-      ? Colors.green.withAlpha(100)
-      : Colors.red.withAlpha(100);
+  var _splashColor;
+  var _highlightColor;
 
   for (int i = 0; i < data.imagesList.length; i++) {
-    clickIndex = i;
+    if (data.answer == i) {
+      _splashColor = Colors.green.withAlpha(60);
+      _highlightColor = Colors.green.withAlpha(100);
+    } else {
+      _splashColor = Colors.red.withAlpha(60);
+      _highlightColor = Colors.red.withAlpha(100);
+    }
     questionCell.add(Card(
-      key: Key(i.toString()),
       color: Colors.white,
       child: InkWell(
         highlightColor: _highlightColor,
@@ -29,8 +28,7 @@ List<Widget> loadQuestions(Data data, Function func) {
                 image: AssetImage(
                     Keys.PATH_IMAGE + data.imagesList[i].toString()))),
         onTap: () {
-          func();
-//          print("tapped " + clickIndex.toString());
+          if (data.answer == i) func();
         },
       ),
     ));
