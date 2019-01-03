@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -44,4 +45,57 @@ Future<Question> loadQuestion(String path) async {
   String jsonPage = await loadAsset(path);
   final jsonResponse = json.decode(jsonPage);
   return await Question.fromJson(jsonResponse);
+}
+
+Widget getFloatingButton(BuildContext context, AnimationController controller,
+    List<IconData> icons, Function func1, Function func2) {
+  return new Column(
+    mainAxisSize: MainAxisSize.min,
+    children: new List.generate(icons.length, (int index) {
+      Widget child = new Container(
+        height: 70.0,
+        width: 56.0,
+        alignment: FractionalOffset.topCenter,
+        child: ScaleTransition(
+          scale: CurvedAnimation(
+            parent: controller,
+            curve: Interval(0.0, 1.0 - index / icons.length / 2.0,
+                curve: Curves.easeOut),
+          ),
+          child: FloatingActionButton(
+            backgroundColor: Colors.white,
+            mini: true,
+            child: Icon(icons[index], color: Colors.orange),
+            onPressed: () {
+              index == 0 ? func1() : func2();
+            },
+          ),
+        ),
+      );
+      return child;
+    }).toList()
+      ..add(
+        FloatingActionButton(
+          backgroundColor: Colors.white,
+          child: AnimatedBuilder(
+            animation: controller,
+            builder: (BuildContext context, Widget child) {
+              return Transform(
+                  transform:
+                      Matrix4.rotationZ(controller.value * 0.5 * math.pi),
+                  alignment: FractionalOffset.center,
+                  child: Icon(
+                      controller.isDismissed ? Icons.settings : Icons.close,
+                      color: Colors.orange));
+            },
+          ),
+          onPressed: () {
+            if (controller.isDismissed)
+              controller.forward();
+            else
+              controller.reverse();
+          },
+        ),
+      ),
+  );
 }

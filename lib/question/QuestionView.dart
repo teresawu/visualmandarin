@@ -11,11 +11,19 @@ class QuestionView extends StatefulWidget {
   QuestionViewState createState() => QuestionViewState();
 }
 
-class QuestionViewState extends State<QuestionView> {
+class QuestionViewState extends State<QuestionView>
+    with TickerProviderStateMixin {
   AudioCache audioCache = new AudioCache();
+  AnimationController controller;
+  List<IconData> icons = const [Icons.audiotrack, Icons.question_answer];
 
-  QuestionViewState() {
+  @override
+  void initState() {
     refreshPage();
+    controller = new AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 500),
+    );
   }
 
   @override
@@ -37,17 +45,15 @@ class QuestionViewState extends State<QuestionView> {
                       crossAxisCount: 2,
                       children: loadQuestions(Keys.data, refreshQuestion)),
                 ),
-                floatingActionButton: FloatingActionButton(
-                    onPressed: () {
-                      audioCache.play(Keys.data.audio);
-                    },
-                    backgroundColor: Colors.white,
-                    foregroundColor: Colors.white,
-                    child: Icon(
-                      Icons.audiotrack,
-                      color: Colors.orange,
-                    )))));
+                floatingActionButton: getFloatingButton(context, controller,
+                    icons, playAudio, showCorrectAnswer))));
   }
+
+  void playAudio() {
+    audioCache.play(Keys.data.audio);
+  }
+
+  void showCorrectAnswer() {}
 
   void refreshPage() {
     loadQuestion(Keys.PATH).then((val) => setState(() {
