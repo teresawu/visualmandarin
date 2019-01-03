@@ -63,9 +63,8 @@ Widget getFloatingButton(BuildContext context, AnimationController controller,
                 curve: Curves.easeOut),
           ),
           child: FloatingActionButton(
-            backgroundColor: Colors.white,
-            mini: true,
-            child: Icon(icons[index], color: Colors.orange),
+            backgroundColor: Colors.orange,
+            child: Icon(icons[index], color: Colors.white),
             onPressed: () {
               index == 0 ? func1() : func2();
             },
