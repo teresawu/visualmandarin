@@ -12,6 +12,7 @@ dependencies:
   json_serializable: ^2.0.1
   audioplayers: ^0.7.8
   auto_size_text: ^0.3.0
+  share: ^0.5.3
 
 dev_dependencies:
   flutter_test:

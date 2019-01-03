@@ -3,6 +3,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:share/share.dart';
 import 'package:visualmandarin/Keys.dart';
 import 'package:visualmandarin/model/Question.dart';
 
@@ -48,8 +49,8 @@ Future<Question> loadQuestion(String path) async {
 }
 
 Widget getFloatingButton(BuildContext context, AnimationController controller,
-    List<IconData> icons, Function func1, Function func2) {
-  return new Column(
+    List<IconData> icons, Function func1) {
+  return Column(
     mainAxisSize: MainAxisSize.min,
     children: new List.generate(icons.length, (int index) {
       Widget child = new Container(
@@ -66,7 +67,7 @@ Widget getFloatingButton(BuildContext context, AnimationController controller,
             backgroundColor: Colors.orange,
             child: Icon(icons[index], color: Colors.white),
             onPressed: () {
-              index == 0 ? func1() : func2();
+              index == 0 ? func1() : Share.share("share something");
             },
           ),
         ),

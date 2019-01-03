@@ -15,7 +15,7 @@ class QuestionViewState extends State<QuestionView>
     with TickerProviderStateMixin {
   AudioCache audioCache = new AudioCache();
   AnimationController controller;
-  List<IconData> icons = const [Icons.audiotrack, Icons.question_answer];
+  List<IconData> icons = const [Icons.audiotrack, Icons.share];
 
   @override
   void initState() {
@@ -45,15 +45,13 @@ class QuestionViewState extends State<QuestionView>
                       crossAxisCount: 2,
                       children: loadQuestions(Keys.data, refreshQuestion)),
                 ),
-                floatingActionButton: getFloatingButton(context, controller,
-                    icons, playAudio, showCorrectAnswer))));
+                floatingActionButton:
+                    getFloatingButton(context, controller, icons, playAudio))));
   }
 
   void playAudio() {
     audioCache.play(Keys.data.audio);
   }
-
-  void showCorrectAnswer() {}
 
   void refreshPage() {
     loadQuestion(Keys.PATH).then((val) => setState(() {
