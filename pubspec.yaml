@@ -1,18 +1,16 @@
 name: visualmandarin
 description: A new Flutter project.
-version: 1.0.0+1
+version: 1.0.0
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cloud_firestore: ^0.8.2+3
-  cupertino_icons: ^0.1.2
-  json_serializable: ^2.0.1
-  audioplayers: ^0.7.8
-  auto_size_text: ^0.3.0
+  cupertino_icons: ^1.0.5
+  json_serializable: ^6.2.0
+  audioplayers: ^1.0.1
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,6 @@
 class Question {
-  int index;
-  List<Data> data;
+  int? index;
+  List<Data>? data;
 
   Question({this.index, this.data});
 
@@ -12,10 +12,10 @@ class Question {
 }
 
 class Data {
-  String question;
-  int answer;
-  String audio;
-  List<String> imagesList;
+  String? question;
+  int? answer;
+  String? audio;
+  List<String>? imagesList;
 
   Data({this.question, this.answer, this.audio, this.imagesList});
 

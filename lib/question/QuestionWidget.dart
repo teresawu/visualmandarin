@@ -10,7 +10,7 @@ List<Widget> loadQuestions(Data data, Function func) {
   var _splashColor;
   var _highlightColor;
 
-  for (int i = 0; i < data.imagesList.length; i++) {
+  for (int i = 0; i < data.imagesList!.length; i++) {
     if (data.answer == i) {
       _splashColor = Colors.green.withAlpha(60);
       _highlightColor = Colors.green.withAlpha(100);
@@ -26,7 +26,7 @@ List<Widget> loadQuestions(Data data, Function func) {
         child: Center(
             child: Image(
                 image: AssetImage(
-                    Keys.PATH_IMAGE + data.imagesList[i].toString()))),
+                    Keys.PATH_IMAGE + data.imagesList![i].toString()))),
         onTap: () {
           if (data.answer == i) func();
         },

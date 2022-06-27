@@ -12,10 +12,10 @@ class NavViewDetail extends StatefulWidget {
 
 class NavViewDetailState extends State<NavViewDetail>
     with SingleTickerProviderStateMixin {
-  AnimationController animationController;
-  Animation<double> animation;
-  Animation<double> animationFadeInOut;
-  MenuAnimationStatus animationStatus;
+  AnimationController? animationController;
+  Animation<double>? animation;
+  Animation<double>? animationFadeInOut;
+  MenuAnimationStatus? animationStatus;
 
   @override
   void initState() {
@@ -25,7 +25,7 @@ class NavViewDetailState extends State<NavViewDetail>
         duration: const Duration(milliseconds: 1000), vsync: this)
       ..addListener(() {});
     animation = Tween(begin: -pi / 2.0, end: 0.0).animate(CurvedAnimation(
-        parent: animationController,
+        parent: animationController!,
         curve: Curves.bounceOut,
         reverseCurve: Curves.bounceIn))
       ..addListener(() {
@@ -41,13 +41,13 @@ class NavViewDetailState extends State<NavViewDetail>
       });
 
     animationFadeInOut = Tween(begin: 1.0, end: 0.0).animate(CurvedAnimation(
-        parent: animationController,
+        parent: animationController!,
         curve: Interval(0.0, 0.5, curve: Curves.ease)));
   }
 
   @override
   void dispose() {
-    animationController.dispose();
+    animationController?.dispose();
     super.dispose();
   }
 
@@ -58,7 +58,7 @@ class NavViewDetailState extends State<NavViewDetail>
     double screenHeight = mediaQueryData.size.height;
 
     return Transform.rotate(
-        angle: animation.value,
+        angle: animation!.value,
         origin: Offset(24.0, 56.0),
         alignment: Alignment.topLeft,
         child: Material(
@@ -69,7 +69,7 @@ class NavViewDetailState extends State<NavViewDetail>
             color: Color(Keys.DARK_GREY),
             child: Stack(
               children: <Widget>[
-                getTitleStyle(screenWidth, animationFadeInOut.value),
+                getTitleStyle(screenWidth, animationFadeInOut!.value),
                 getHamburgerIcon(playAnimation),
                 loadNavData(context, playAnimation, refreshPage)
               ],
@@ -82,16 +82,16 @@ class NavViewDetailState extends State<NavViewDetail>
     try {
       if (animationStatus == MenuAnimationStatus.animation) {
       } else if (animationStatus == MenuAnimationStatus.close)
-        animationController.forward().orCancel;
+        animationController?.forward().orCancel;
       else
-        animationController.reverse().orCancel;
+        animationController?.reverse().orCancel;
     } on TickerCanceled {}
   }
 
   void refreshPage() {
     loadQuestion(Keys.PATH).then((val) => setState(() {
           Keys.question = val;
-          Keys.data = (Keys.question.data..shuffle()).first;
+          Keys.data = (Keys.question.data?..shuffle())!.first!;
         }));
   }
 }

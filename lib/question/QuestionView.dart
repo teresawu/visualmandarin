@@ -1,4 +1,3 @@
-import 'package:audioplayers/audio_cache.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:visualmandarin/Keys.dart';
@@ -12,7 +11,7 @@ class QuestionView extends StatefulWidget {
 }
 
 class QuestionViewState extends State<QuestionView> {
-  AudioCache audioCache = new AudioCache();
+  // AudioCache? audioCache = new AudioCache();
 
   QuestionViewState() {
     refreshPage();
@@ -26,7 +25,7 @@ class QuestionViewState extends State<QuestionView> {
             padding: EdgeInsets.only(left: 20.0, top: 50.0, right: 25.0),
             child: Scaffold(
                 appBar: AppBar(
-                    title: AutoSizeText(Keys.data.question,
+                    title: AutoSizeText(Keys.data.question!,
                         style: TextStyle(fontSize: 25.0), maxLines: 3),
                     backgroundColor: Color(Keys.DARK_GREY),
                     elevation: 0.0,
@@ -39,7 +38,7 @@ class QuestionViewState extends State<QuestionView> {
                 ),
                 floatingActionButton: FloatingActionButton(
                     onPressed: () {
-                      audioCache.play(Keys.data.audio);
+                      // audioCache.play(Keys.data.audio);
                     },
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.white,
@@ -52,13 +51,13 @@ class QuestionViewState extends State<QuestionView> {
   void refreshPage() {
     loadQuestion(Keys.PATH).then((val) => setState(() {
           Keys.question = val;
-          Keys.data = (Keys.question.data..shuffle()).first;
+          Keys.data = (Keys.question.data?..shuffle())!.first!;
         }));
   }
 
   void refreshQuestion() {
     setState(() {
-      Keys.data = (Keys.question.data..shuffle()).first;
+      Keys.data = (Keys.question.data?..shuffle())!.first!;
     });
   }
 }

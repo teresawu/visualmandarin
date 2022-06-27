@@ -9,15 +9,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'VisualMandarin',
+      title: 'Flash Card',
       home: new NavView(),
       theme: ThemeData(
         // Define the default Brightness and Colors
-        brightness: Brightness.dark,
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.grey)
+            .copyWith(
+            secondary: Colors.blueAccent, brightness: Brightness.dark),
         primaryColor: Color(Keys.DARK_GREY),
-        accentColor: Color(Keys.DARK_GREY),
-        fontFamily: 'Montserrat',
-      ),
+        fontFamily: 'Montserrat'),
     );
   }
 }
